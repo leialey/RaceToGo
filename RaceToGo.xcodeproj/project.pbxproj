@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E51672F82C59F8F0005534F1 /* RaceToGoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51672F72C59F8F0005534F1 /* RaceToGoApp.swift */; };
+		E51672FC2C59F8F1005534F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E51672FB2C59F8F1005534F1 /* Assets.xcassets */; };
+		E51672FF2C59F8F1005534F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E51672FE2C59F8F1005534F1 /* Preview Assets.xcassets */; };
+		E51673092C59F8F2005534F1 /* RaceToGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673082C59F8F2005534F1 /* RaceToGoTests.swift */; };
+		E51673132C59F8F2005534F1 /* RaceToGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673122C59F8F2005534F1 /* RaceToGoUITests.swift */; };
+		E51673152C59F8F2005534F1 /* RaceToGoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673142C59F8F2005534F1 /* RaceToGoUITestsLaunchTests.swift */; };
+		E51673242C59F952005534F1 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673232C59F952005534F1 /* Race.swift */; };
+		E51673262C59F9C5005534F1 /* RaceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673252C59F9C5005534F1 /* RaceCategory.swift */; };
+		E516732B2C59FB71005534F1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516732A2C59FB71005534F1 /* APIService.swift */; };
+		E516732E2C5A0136005534F1 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516732D2C5A0136005534F1 /* APIError.swift */; };
+		E51673302C5A0231005534F1 /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516732F2C5A0231005534F1 /* APIProtocol.swift */; };
+		E51673322C5A0307005534F1 /* APIMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673312C5A0307005534F1 /* APIMethod.swift */; };
+		E51673362C5A038E005534F1 /* RacingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673352C5A038E005534F1 /* RacingAPI.swift */; };
+		E51673382C5A0424005534F1 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673372C5A0424005534F1 /* APIConstants.swift */; };
+		E516733C2C5A0B69005534F1 /* NextRacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516733B2C5A0B69005534F1 /* NextRacesViewModel.swift */; };
+		E516733F2C5A0BC2005534F1 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516733E2C5A0BC2005534F1 /* BaseViewModel.swift */; };
+		E51673432C5A0EB7005534F1 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673422C5A0EB7005534F1 /* BaseView.swift */; };
+		E51673452C5A0FA4005534F1 /* ErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673442C5A0FA4005534F1 /* ErrorAlert.swift */; };
+		E516734A2C5A1109005534F1 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673492C5A1109005534F1 /* CustomError.swift */; };
+		E516734C2C5A1401005534F1 /* NextRacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516734B2C5A1401005534F1 /* NextRacesView.swift */; };
+		E516734E2C5A150E005534F1 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516734D2C5A150E005534F1 /* MockAPIService.swift */; };
+		E51673502C5A1C4B005534F1 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516734F2C5A1C4B005534F1 /* Data+Extensions.swift */; };
+		E51673532C5A2369005534F1 /* NextRacesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673522C5A2369005534F1 /* NextRacesResponse.swift */; };
+		E51673572C5A25B9005534F1 /* NextRacesResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = E51673562C5A25B9005534F1 /* NextRacesResponse.json */; };
+		E516735B2C5A363F005534F1 /* NextRacesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516735A2C5A363F005534F1 /* NextRacesViewModelTests.swift */; };
+		E516735E2C5A36AF005534F1 /* MockedDependenciesTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516735D2C5A36AF005534F1 /* MockedDependenciesTestCase.swift */; };
+		E51673622C5A410C005534F1 /* Decodable+Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673612C5A410C005534F1 /* Decodable+Mockable.swift */; };
+		E51673642C5A41B3005534F1 /* NextRacesResponse+Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673632C5A41B3005534F1 /* NextRacesResponse+Mockable.swift */; };
+		E51673662C5A4FF0005534F1 /* RaceListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673652C5A4FF0005534F1 /* RaceListRow.swift */; };
+		E51673682C5A4FFF005534F1 /* RaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673672C5A4FFF005534F1 /* RaceViewModel.swift */; };
+		E516736A2C5A5588005534F1 /* RaceViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673692C5A5588005534F1 /* RaceViewModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E51673052C59F8F2005534F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E51672EC2C59F8F0005534F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E51672F32C59F8F0005534F1;
+			remoteInfo = RaceToGo;
+		};
+		E516730F2C59F8F2005534F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E51672EC2C59F8F0005534F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E51672F32C59F8F0005534F1;
+			remoteInfo = RaceToGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E51672F42C59F8F0005534F1 /* RaceToGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaceToGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51672F72C59F8F0005534F1 /* RaceToGoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceToGoApp.swift; sourceTree = "<group>"; };
+		E51672FB2C59F8F1005534F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E51672FE2C59F8F1005534F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E51673042C59F8F2005534F1 /* RaceToGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaceToGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51673082C59F8F2005534F1 /* RaceToGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceToGoTests.swift; sourceTree = "<group>"; };
+		E516730E2C59F8F2005534F1 /* RaceToGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaceToGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51673122C59F8F2005534F1 /* RaceToGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceToGoUITests.swift; sourceTree = "<group>"; };
+		E51673142C59F8F2005534F1 /* RaceToGoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceToGoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E51673232C59F952005534F1 /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		E51673252C59F9C5005534F1 /* RaceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCategory.swift; sourceTree = "<group>"; };
+		E516732A2C59FB71005534F1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		E516732D2C5A0136005534F1 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		E516732F2C5A0231005534F1 /* APIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProtocol.swift; sourceTree = "<group>"; };
+		E51673312C5A0307005534F1 /* APIMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMethod.swift; sourceTree = "<group>"; };
+		E51673352C5A038E005534F1 /* RacingAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingAPI.swift; sourceTree = "<group>"; };
+		E51673372C5A0424005534F1 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		E516733B2C5A0B69005534F1 /* NextRacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextRacesViewModel.swift; sourceTree = "<group>"; };
+		E516733E2C5A0BC2005534F1 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		E51673422C5A0EB7005534F1 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		E51673442C5A0FA4005534F1 /* ErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlert.swift; sourceTree = "<group>"; };
+		E51673492C5A1109005534F1 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		E516734B2C5A1401005534F1 /* NextRacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextRacesView.swift; sourceTree = "<group>"; };
+		E516734D2C5A150E005534F1 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
+		E516734F2C5A1C4B005534F1 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		E51673522C5A2369005534F1 /* NextRacesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextRacesResponse.swift; sourceTree = "<group>"; };
+		E51673562C5A25B9005534F1 /* NextRacesResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NextRacesResponse.json; sourceTree = "<group>"; };
+		E516735A2C5A363F005534F1 /* NextRacesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextRacesViewModelTests.swift; sourceTree = "<group>"; };
+		E516735D2C5A36AF005534F1 /* MockedDependenciesTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedDependenciesTestCase.swift; sourceTree = "<group>"; };
+		E51673612C5A410C005534F1 /* Decodable+Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+Mockable.swift"; sourceTree = "<group>"; };
+		E51673632C5A41B3005534F1 /* NextRacesResponse+Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NextRacesResponse+Mockable.swift"; sourceTree = "<group>"; };
+		E51673652C5A4FF0005534F1 /* RaceListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListRow.swift; sourceTree = "<group>"; };
+		E51673672C5A4FFF005534F1 /* RaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceViewModel.swift; sourceTree = "<group>"; };
+		E51673692C5A5588005534F1 /* RaceViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceViewModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E51672F12C59F8F0005534F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E51673012C59F8F2005534F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E516730B2C59F8F2005534F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E51672EB2C59F8F0005534F1 = {
+			isa = PBXGroup;
+			children = (
+				E51672F62C59F8F0005534F1 /* RaceToGo */,
+				E51673072C59F8F2005534F1 /* RaceToGoTests */,
+				E51673112C59F8F2005534F1 /* RaceToGoUITests */,
+				E51672F52C59F8F0005534F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E51672F52C59F8F0005534F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E51672F42C59F8F0005534F1 /* RaceToGo.app */,
+				E51673042C59F8F2005534F1 /* RaceToGoTests.xctest */,
+				E516730E2C59F8F2005534F1 /* RaceToGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E51672F62C59F8F0005534F1 /* RaceToGo */ = {
+			isa = PBXGroup;
+			children = (
+				E51672F72C59F8F0005534F1 /* RaceToGoApp.swift */,
+				E51673212C59F928005534F1 /* Next to Go */,
+				E51672FB2C59F8F1005534F1 /* Assets.xcassets */,
+				E51672FD2C59F8F1005534F1 /* Preview Content */,
+			);
+			path = RaceToGo;
+			sourceTree = "<group>";
+		};
+		E51672FD2C59F8F1005534F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E51672FE2C59F8F1005534F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E51673072C59F8F2005534F1 /* RaceToGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E516735C2C5A36A0005534F1 /* Base */,
+				E51673582C5A362E005534F1 /* Views */,
+				E51673392C5A09A6005534F1 /* Services */,
+				E51673082C59F8F2005534F1 /* RaceToGoTests.swift */,
+			);
+			path = RaceToGoTests;
+			sourceTree = "<group>";
+		};
+		E51673112C59F8F2005534F1 /* RaceToGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E51673122C59F8F2005534F1 /* RaceToGoUITests.swift */,
+				E51673142C59F8F2005534F1 /* RaceToGoUITestsLaunchTests.swift */,
+			);
+			path = RaceToGoUITests;
+			sourceTree = "<group>";
+		};
+		E51673212C59F928005534F1 /* Next to Go */ = {
+			isa = PBXGroup;
+			children = (
+				E51673472C5A10F6005534F1 /* Extensions */,
+				E51673272C59FB16005534F1 /* Services */,
+				E51673222C59F93A005534F1 /* Models */,
+				E516733A2C5A0B37005534F1 /* Views */,
+			);
+			path = "Next to Go";
+			sourceTree = "<group>";
+		};
+		E51673222C59F93A005534F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E516735F2C5A3AE8005534F1 /* Racing */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E51673272C59FB16005534F1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E51673482C5A1100005534F1 /* Error handling */,
+				E516732C2C59FB7C005534F1 /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E516732C2C59FB7C005534F1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E51673342C5A0374005534F1 /* Base */,
+				E51673332C5A036C005534F1 /* Racing */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E51673332C5A036C005534F1 /* Racing */ = {
+			isa = PBXGroup;
+			children = (
+				E51673352C5A038E005534F1 /* RacingAPI.swift */,
+				E51673512C5A2357005534F1 /* Responses */,
+			);
+			path = Racing;
+			sourceTree = "<group>";
+		};
+		E51673342C5A0374005534F1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E51673372C5A0424005534F1 /* APIConstants.swift */,
+				E516732D2C5A0136005534F1 /* APIError.swift */,
+				E51673312C5A0307005534F1 /* APIMethod.swift */,
+				E516732F2C5A0231005534F1 /* APIProtocol.swift */,
+				E516732A2C59FB71005534F1 /* APIService.swift */,
+				E516734D2C5A150E005534F1 /* MockAPIService.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E51673392C5A09A6005534F1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E516733A2C5A0B37005534F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E516733D2C5A0BBA005534F1 /* Base */,
+				E51673602C5A3B00005534F1 /* Racing */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E516733D2C5A0BBA005534F1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E51673422C5A0EB7005534F1 /* BaseView.swift */,
+				E516733E2C5A0BC2005534F1 /* BaseViewModel.swift */,
+				E51673442C5A0FA4005534F1 /* ErrorAlert.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E51673462C5A1081005534F1 /* Next Races */ = {
+			isa = PBXGroup;
+			children = (
+				E516733B2C5A0B69005534F1 /* NextRacesViewModel.swift */,
+				E516734B2C5A1401005534F1 /* NextRacesView.swift */,
+				E51673652C5A4FF0005534F1 /* RaceListRow.swift */,
+				E51673672C5A4FFF005534F1 /* RaceViewModel.swift */,
+			);
+			path = "Next Races";
+			sourceTree = "<group>";
+		};
+		E51673472C5A10F6005534F1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E516734F2C5A1C4B005534F1 /* Data+Extensions.swift */,
+				E51673612C5A410C005534F1 /* Decodable+Mockable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E51673482C5A1100005534F1 /* Error handling */ = {
+			isa = PBXGroup;
+			children = (
+				E51673492C5A1109005534F1 /* CustomError.swift */,
+			);
+			path = "Error handling";
+			sourceTree = "<group>";
+		};
+		E51673512C5A2357005534F1 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				E516736D2C5A6690005534F1 /* Next Races */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		E51673582C5A362E005534F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E51673592C5A3632005534F1 /* Next Races */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E51673592C5A3632005534F1 /* Next Races */ = {
+			isa = PBXGroup;
+			children = (
+				E516735A2C5A363F005534F1 /* NextRacesViewModelTests.swift */,
+				E51673692C5A5588005534F1 /* RaceViewModelTests.swift */,
+			);
+			path = "Next Races";
+			sourceTree = "<group>";
+		};
+		E516735C2C5A36A0005534F1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E516735D2C5A36AF005534F1 /* MockedDependenciesTestCase.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E516735F2C5A3AE8005534F1 /* Racing */ = {
+			isa = PBXGroup;
+			children = (
+				E51673252C59F9C5005534F1 /* RaceCategory.swift */,
+				E51673232C59F952005534F1 /* Race.swift */,
+			);
+			path = Racing;
+			sourceTree = "<group>";
+		};
+		E51673602C5A3B00005534F1 /* Racing */ = {
+			isa = PBXGroup;
+			children = (
+				E51673462C5A1081005534F1 /* Next Races */,
+			);
+			path = Racing;
+			sourceTree = "<group>";
+		};
+		E516736D2C5A6690005534F1 /* Next Races */ = {
+			isa = PBXGroup;
+			children = (
+				E51673562C5A25B9005534F1 /* NextRacesResponse.json */,
+				E51673522C5A2369005534F1 /* NextRacesResponse.swift */,
+				E51673632C5A41B3005534F1 /* NextRacesResponse+Mockable.swift */,
+			);
+			path = "Next Races";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E51672F32C59F8F0005534F1 /* RaceToGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E51673182C59F8F2005534F1 /* Build configuration list for PBXNativeTarget "RaceToGo" */;
+			buildPhases = (
+				E51672F02C59F8F0005534F1 /* Sources */,
+				E51672F12C59F8F0005534F1 /* Frameworks */,
+				E51672F22C59F8F0005534F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaceToGo;
+			productName = RaceToGo;
+			productReference = E51672F42C59F8F0005534F1 /* RaceToGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E51673032C59F8F2005534F1 /* RaceToGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E516731B2C59F8F2005534F1 /* Build configuration list for PBXNativeTarget "RaceToGoTests" */;
+			buildPhases = (
+				E51673002C59F8F2005534F1 /* Sources */,
+				E51673012C59F8F2005534F1 /* Frameworks */,
+				E51673022C59F8F2005534F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E51673062C59F8F2005534F1 /* PBXTargetDependency */,
+			);
+			name = RaceToGoTests;
+			productName = RaceToGoTests;
+			productReference = E51673042C59F8F2005534F1 /* RaceToGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E516730D2C59F8F2005534F1 /* RaceToGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E516731E2C59F8F2005534F1 /* Build configuration list for PBXNativeTarget "RaceToGoUITests" */;
+			buildPhases = (
+				E516730A2C59F8F2005534F1 /* Sources */,
+				E516730B2C59F8F2005534F1 /* Frameworks */,
+				E516730C2C59F8F2005534F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E51673102C59F8F2005534F1 /* PBXTargetDependency */,
+			);
+			name = RaceToGoUITests;
+			productName = RaceToGoUITests;
+			productReference = E516730E2C59F8F2005534F1 /* RaceToGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E51672EC2C59F8F0005534F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E51672F32C59F8F0005534F1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E51673032C59F8F2005534F1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E51672F32C59F8F0005534F1;
+					};
+					E516730D2C59F8F2005534F1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E51672F32C59F8F0005534F1;
+					};
+				};
+			};
+			buildConfigurationList = E51672EF2C59F8F0005534F1 /* Build configuration list for PBXProject "RaceToGo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E51672EB2C59F8F0005534F1;
+			productRefGroup = E51672F52C59F8F0005534F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E51672F32C59F8F0005534F1 /* RaceToGo */,
+				E51673032C59F8F2005534F1 /* RaceToGoTests */,
+				E516730D2C59F8F2005534F1 /* RaceToGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E51672F22C59F8F0005534F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51672FF2C59F8F1005534F1 /* Preview Assets.xcassets in Resources */,
+				E51673572C5A25B9005534F1 /* NextRacesResponse.json in Resources */,
+				E51672FC2C59F8F1005534F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E51673022C59F8F2005534F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E516730C2C59F8F2005534F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E51672F02C59F8F0005534F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51673362C5A038E005534F1 /* RacingAPI.swift in Sources */,
+				E51673382C5A0424005534F1 /* APIConstants.swift in Sources */,
+				E516734A2C5A1109005534F1 /* CustomError.swift in Sources */,
+				E51673302C5A0231005534F1 /* APIProtocol.swift in Sources */,
+				E516733C2C5A0B69005534F1 /* NextRacesViewModel.swift in Sources */,
+				E516734E2C5A150E005534F1 /* MockAPIService.swift in Sources */,
+				E51673502C5A1C4B005534F1 /* Data+Extensions.swift in Sources */,
+				E51673242C59F952005534F1 /* Race.swift in Sources */,
+				E516733F2C5A0BC2005534F1 /* BaseViewModel.swift in Sources */,
+				E51673262C59F9C5005534F1 /* RaceCategory.swift in Sources */,
+				E51673682C5A4FFF005534F1 /* RaceViewModel.swift in Sources */,
+				E51673662C5A4FF0005534F1 /* RaceListRow.swift in Sources */,
+				E51673622C5A410C005534F1 /* Decodable+Mockable.swift in Sources */,
+				E516732B2C59FB71005534F1 /* APIService.swift in Sources */,
+				E51672F82C59F8F0005534F1 /* RaceToGoApp.swift in Sources */,
+				E51673642C5A41B3005534F1 /* NextRacesResponse+Mockable.swift in Sources */,
+				E51673532C5A2369005534F1 /* NextRacesResponse.swift in Sources */,
+				E51673432C5A0EB7005534F1 /* BaseView.swift in Sources */,
+				E516734C2C5A1401005534F1 /* NextRacesView.swift in Sources */,
+				E51673452C5A0FA4005534F1 /* ErrorAlert.swift in Sources */,
+				E516732E2C5A0136005534F1 /* APIError.swift in Sources */,
+				E51673322C5A0307005534F1 /* APIMethod.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E51673002C59F8F2005534F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E516735B2C5A363F005534F1 /* NextRacesViewModelTests.swift in Sources */,
+				E516736A2C5A5588005534F1 /* RaceViewModelTests.swift in Sources */,
+				E51673092C59F8F2005534F1 /* RaceToGoTests.swift in Sources */,
+				E516735E2C5A36AF005534F1 /* MockedDependenciesTestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E516730A2C59F8F2005534F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51673152C59F8F2005534F1 /* RaceToGoUITestsLaunchTests.swift in Sources */,
+				E51673132C59F8F2005534F1 /* RaceToGoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E51673062C59F8F2005534F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E51672F32C59F8F0005534F1 /* RaceToGo */;
+			targetProxy = E51673052C59F8F2005534F1 /* PBXContainerItemProxy */;
+		};
+		E51673102C59F8F2005534F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E51672F32C59F8F0005534F1 /* RaceToGo */;
+			targetProxy = E516730F2C59F8F2005534F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E51673162C59F8F2005534F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E51673172C59F8F2005534F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E51673192C59F8F2005534F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RaceToGo/Preview Content\"";
+				DEVELOPMENT_TEAM = MJ93Q6SVAB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EkaterinaRodionova.RaceToGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E516731A2C59F8F2005534F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RaceToGo/Preview Content\"";
+				DEVELOPMENT_TEAM = MJ93Q6SVAB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EkaterinaRodionova.RaceToGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E516731C2C59F8F2005534F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJ93Q6SVAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EkaterinaRodionova.RaceToGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaceToGo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RaceToGo";
+			};
+			name = Debug;
+		};
+		E516731D2C59F8F2005534F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJ93Q6SVAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EkaterinaRodionova.RaceToGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaceToGo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RaceToGo";
+			};
+			name = Release;
+		};
+		E516731F2C59F8F2005534F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJ93Q6SVAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EkaterinaRodionova.RaceToGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RaceToGo;
+			};
+			name = Debug;
+		};
+		E51673202C59F8F2005534F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJ93Q6SVAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EkaterinaRodionova.RaceToGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RaceToGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E51672EF2C59F8F0005534F1 /* Build configuration list for PBXProject "RaceToGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E51673162C59F8F2005534F1 /* Debug */,
+				E51673172C59F8F2005534F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E51673182C59F8F2005534F1 /* Build configuration list for PBXNativeTarget "RaceToGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E51673192C59F8F2005534F1 /* Debug */,
+				E516731A2C59F8F2005534F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E516731B2C59F8F2005534F1 /* Build configuration list for PBXNativeTarget "RaceToGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E516731C2C59F8F2005534F1 /* Debug */,
+				E516731D2C59F8F2005534F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E516731E2C59F8F2005534F1 /* Build configuration list for PBXNativeTarget "RaceToGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E516731F2C59F8F2005534F1 /* Debug */,
+				E51673202C59F8F2005534F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E51672EC2C59F8F0005534F1 /* Project object */;
+}
