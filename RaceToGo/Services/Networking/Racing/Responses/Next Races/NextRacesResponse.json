@@ -4,146 +4,20 @@
         "status" : 200,
         "data" : {
             "race_summaries" : {
-                "ce2ba65f-f5ee-4ca9-b8bd-dd5ab9c70484" : {
-                    "race_id" : "ce2ba65f-f5ee-4ca9-b8bd-dd5ab9c70484",
-                    "meeting_id" : "3461b0bd-ecee-491c-9941-2f2e9da86cbf",
-                    "category_id" : "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
-                    "race_name" : "Carina Leagues Club",
-                    "race_form" : {
-                        "distance_type" : {
-                            "id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
-                            "name" : "Metres",
-                            "short_name" : "m"
-                        },
-                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Albion Park\",\"state\":\"QLD\",\"country\":\"AUS\",\"number\":9,\"race_name\":\"Carina Leagues Club\",\"time\":\"2024-07-31T07:49:00Z\",\"class\":\"5th Grade\",\"start_type\":\"\",\"prizemonies\":{\"1st\":2275,\"2nd\":700,\"3rd\":350,\"4th\":175,\"total_value\":3500},\"localised_prizemonies\":{\"AUD\":{\"total_value\":3500},\"NZD\":{\"total_value\":3815}},\"rail_position\":\"\",\"track_direction\":\"Right\",\"track_surface\":\"All Weather\",\"group\":\"\"}}",
-                        "track_condition_id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
-                        "race_comment_alternative" : "QUEST FOR CHAOS (2) finished third (23.08) two back at this track but out of the placings last time when 6th there. Better than the latest effort and deserves another chance. WEBLEC SPARK (3) was safely held last time out, finishing seventh at this track over 520m behind Kahlo Hayze (31.28) in a Grade 5. Form from his last run is proving strong. Must be included in calculations. GOES LIKE GARY (1) has some solid form under his belt and proved too strong last time to win by 4.5 lengths at this track in a handy 19.20 beating Poet's Corner. Winner at his latest appearance in one of the quickest times on the card. Capable of going well again. INFAMOUS (4) missed the placings here last start but is well-placed to atone.",
-                        "distance_type_id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
-                        "generated" : 1,
-                        "weather" : {
-                            "short_name" : "fine",
-                            "id" : "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
-                            "icon_uri" : "FINE",
-                            "name" : "FINE"
-                        },
-                        "race_comment" : "QUEST FOR CHAOS (2) finished third (23.08) two back at this track but out of the placings last time when 6th there. Better than the latest effort and deserves another chance. WEBLEC SPARK (3) was safely held last time out, finishing seventh at this track over 520m behind Kahlo Hayze (31.28) in a Grade 5. Form from his last run is proving strong. Must be included in calculations. GOES LIKE GARY (1) has some solid form under his belt and proved too strong last time to win by 4.5 lengths at this track in a handy 19.20 beating Poet's Corner. Winner at his latest appearance in one of the quickest times on the card. Capable of going well again. INFAMOUS (4) missed the placings here last start but is well-placed to atone.",
-                        "silk_base_url" : "drr38safykj6s.cloudfront.net",
-                        "distance" : 395,
-                        "track_condition" : {
-                            "id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
-                            "name" : "Good",
-                            "short_name" : "good"
-                        },
-                        "weather_id" : "08e5f78c-1a36-11eb-9269-cef03e67f1a3"
-                    },
-                    "venue_id" : "12c496d8-9397-4ba4-ba3c-d34ca3625858",
-                    "venue_name" : "Albion Park",
-                    "advertised_start" : {
-                        "seconds" : 1722412140
-                    },
-                    "venue_country" : "AUS",
-                    "race_number" : 9,
-                    "venue_state" : "QLD",
-                    "meeting_name" : "Albion Park"
-                },
-                "db268837-b05a-4a0c-9669-e090723b478d" : {
-                    "race_id" : "db268837-b05a-4a0c-9669-e090723b478d",
-                    "meeting_id" : "9969128b-911d-4166-8085-b0afe2b84253",
-                    "category_id" : "4a2788f8-e825-4d36-9894-efd4baf1cfae",
-                    "race_name" : "Dabble Cup (76)",
-                    "race_form" : {
-                        "distance_type" : {
-                            "id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
-                            "name" : "Metres",
-                            "short_name" : "m"
-                        },
-                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Darwin\",\"state\":\"NT\",\"country\":\"AUS\",\"number\":6,\"race_name\":\"Dabble Cup (76)\",\"time\":\"2024-07-31T07:52:00Z\",\"class\":\"BM0-76\",\"start_type\":\"\",\"prizemonies\":{\"1st\":25600,\"2nd\":6000,\"3rd\":4000,\"4th\":2800,\"5th\":1600,\"total_value\":40000,\"trophy_total_value\":500},\"localised_prizemonies\":{\"AUD\":{\"total_value\":40000},\"NZD\":{\"total_value\":43600}},\"rail_position\":\"True.\",\"track_direction\":\"Left\",\"track_surface\":\"Sand\",\"group\":\"\"}}",
-                        "track_condition_id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
-                        "race_comment_alternative" : "SHAKATTAK (3) needed his fresh-up run after making the move from Victoria earlier in the year and then maintained his strong second-up record by scoring here last time out by 2 lengths. He has scope and his breeding suggests that he will only improve further with more racing. Go again with 2.5 kilos less to carry. RAFFALLI (5) is a very competitive gelding at this level and is probably at his best over this trip. He was runner-up behind the top pick last time out and meets that runner slightly better off at the weights here. Each way all day. PLAGUE STONE (6) is a tough veteran who won his first 2 starts this prep before finishing second in this grade here last time out just over 3 weeks ago. He can make full use of the pole position and is capable of taking this out. SWING WITH JUNIOR (7) engagement of senior jockey Sonja Logan is a potential game-changer. No threat last time out but this suits.",
-                        "distance_type_id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
-                        "generated" : 1,
-                        "weather" : {
-                            "short_name" : "fine",
-                            "id" : "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
-                            "icon_uri" : "FINE",
-                            "name" : "FINE"
-                        },
-                        "race_comment" : "SHAKATTAK (3) needed his fresh-up run after making the move from Victoria earlier in the year and then maintained his strong second-up record by scoring here last time out by 2 lengths. He has scope and his breeding suggests that he will only improve further with more racing. Go again with 2.5 kilos less to carry. RAFFALLI (5) is a very competitive gelding at this level and is probably at his best over this trip. He was runner-up behind the top pick last time out and meets that runner slightly better off at the weights here. Each way all day. PLAGUE STONE (6) is a tough veteran who won his first 2 starts this prep before finishing second in this grade here last time out just over 3 weeks ago. He can make full use of the pole position and is capable of taking this out. SWING WITH JUNIOR (7) engagement of senior jockey Sonja Logan is a potential game-changer. No threat last time out but this suits.",
-                        "silk_base_url" : "drr38safykj6s.cloudfront.net",
-                        "distance" : 1300,
-                        "track_condition" : {
-                            "id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
-                            "name" : "Good",
-                            "short_name" : "good"
-                        },
-                        "weather_id" : "08e5f78c-1a36-11eb-9269-cef03e67f1a3"
-                    },
-                    "venue_id" : "c75b36a5-19f6-435a-b3e8-96b3e74d6f96",
-                    "venue_name" : "Darwin",
-                    "advertised_start" : {
-                        "seconds" : 1722412320
-                    },
-                    "venue_country" : "AUS",
-                    "race_number" : 6,
-                    "venue_state" : "NT",
-                    "meeting_name" : "Darwin"
-                },
-                "3adbea78-b61a-4c3c-a6f0-b911efa0bbbd" : {
-                    "race_id" : "3adbea78-b61a-4c3c-a6f0-b911efa0bbbd",
-                    "meeting_id" : "83f0cece-3325-48a1-b99d-ae24842e7481",
-                    "category_id" : "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
-                    "race_name" : "Avard Civil (275+ Rank)",
-                    "race_form" : {
-                        "distance_type" : {
-                            "id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
-                            "name" : "Metres",
-                            "short_name" : "m"
-                        },
-                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Bendigo\",\"state\":\"VIC\",\"country\":\"AUS\",\"number\":10,\"race_name\":\"Avard Civil (275+ Rank)\",\"time\":\"2024-07-31T07:54:00Z\",\"class\":\"Grade 6\",\"start_type\":\"\",\"prizemonies\":{\"1st\":1000,\"2nd\":320,\"3rd\":160,\"4th\":50,\"5th\":0,\"6th\":0,\"7th\":0,\"8th\":0,\"total_value\":1530},\"localised_prizemonies\":{\"AUD\":{\"total_value\":1530},\"NZD\":{\"total_value\":1668}},\"rail_position\":\"\",\"track_direction\":\"Left\",\"track_surface\":\"All Weather\",\"group\":\"\"}}",
-                        "track_condition_id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
-                        "race_comment_alternative" : "TUFF TOBY (3) recorded his 2nd career win last time at this track, scoring by 8 lengths (24.18). The form out of the last run is proven to be strong. Has hit winning form and can measure up again. LEAVE ME IN (8) ran good time (22.22) winning a T3 Grade 7 three back at Ballarat but missed the frame latest finishing fourth at Shepparton. Expected to bounce back to best. BINGO DASH (2) scored (24.39) last time out at this track in a Grade 7 and will break from box 2 for the first time. Has a strong winning record at this journey. Winner at her latest appearance in one of the quickest times on the card. Shapes as a top winning chance on latest effort. ALVIN DELIGHT (1) will have admirers after placing last time out.",
-                        "distance_type_id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
-                        "generated" : 1,
-                        "weather" : {
-                            "short_name" : "ocast",
-                            "id" : "5ba75165-3cec-11eb-88bb-36fbfdf5d97f",
-                            "icon_uri" : "OCAST",
-                            "name" : "OCAST"
-                        },
-                        "race_comment" : "TUFF TOBY (3) recorded his 2nd career win last time at this track, scoring by 8 lengths (24.18). The form out of the last run is proven to be strong. Has hit winning form and can measure up again. LEAVE ME IN (8) ran good time (22.22) winning a T3 Grade 7 three back at Ballarat but missed the frame latest finishing fourth at Shepparton. Expected to bounce back to best. BINGO DASH (2) scored (24.39) last time out at this track in a Grade 7 and will break from box 2 for the first time. Has a strong winning record at this journey. Winner at her latest appearance in one of the quickest times on the card. Shapes as a top winning chance on latest effort. ALVIN DELIGHT (1) will have admirers after placing last time out.",
-                        "silk_base_url" : "drr38safykj6s.cloudfront.net",
-                        "distance" : 425,
-                        "track_condition" : {
-                            "id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
-                            "name" : "Good",
-                            "short_name" : "good"
-                        },
-                        "weather_id" : "5ba75165-3cec-11eb-88bb-36fbfdf5d97f"
-                    },
-                    "venue_id" : "ab57e842-c2b1-4508-b1c8-dfa908a2db54",
-                    "venue_name" : "Bendigo",
-                    "advertised_start" : {
-                        "seconds" : 1722412440
-                    },
-                    "venue_country" : "AUS",
-                    "race_number" : 10,
-                    "venue_state" : "VIC",
-                    "meeting_name" : "Bendigo"
-                },
-                "329f8fee-8a91-4430-ac70-0a0372097462" : {
-                    "race_id" : "329f8fee-8a91-4430-ac70-0a0372097462",
-                    "meeting_id" : "3bf3eff6-b5bf-4eec-be00-e88cf794c5f3",
+                "8630db92-60f3-4489-9bca-1066758e2270" : {
+                    "race_id" : "8630db92-60f3-4489-9bca-1066758e2270",
+                    "meeting_id" : "87727d3f-37e7-47ba-82c6-17cf05a75ad2",
                     "category_id" : "161d9be2-e909-4326-8c2c-35ed71fb460b",
-                    "race_name" : "Nutrien Bathurst Gc Yealring Sale Heats - 7 August Ladyship Pace",
+                    "race_name" : "Concrete Brothers Trot",
                     "race_form" : {
                         "distance_type" : {
                             "id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
                             "name" : "Metres",
                             "short_name" : "m"
                         },
-                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Bathurst\",\"state\":\"NSW\",\"country\":\"AUS\",\"number\":2,\"race_name\":\"Nutrien Bathurst Gc Yealring Sale Heats - 7 August Ladyship Pace\",\"time\":\"2024-07-31T07:44:00Z\",\"class\":\"NR up to 58\",\"start_type\":\"Mobile\",\"prizemonies\":{\"1st\":5184,\"2nd\":1632,\"3rd\":1056,\"4th\":576,\"5th\":384,\"total_value\":9792},\"localised_prizemonies\":{\"AUD\":{\"total_value\":9792},\"NZD\":{\"total_value\":10673}},\"rail_position\":\"\",\"track_direction\":\"Left\",\"track_surface\":\"All Weather\",\"group\":\"\"}}",
-                        "track_condition_id" : "1db9cab0-b747-11ea-80cf-6a390f79827e",
-                        "race_comment_alternative" : "CHEEKY KISS (10) is a promising filly unbeaten after four appearances. Has had two months off since winning the NSW 3YO Bred Final at Menangle but has been kept up to the mark with a trial win. Can maintain her perfect record. RUBY BABY (4) continued a string of wins or placings last time out when runner-up at Dubbo, coming from the back row to be beaten 2.2 metres. Expect her to make an impact again. BACKWARDS FIRST (3) comes right into contention after leading from a similar draw and scoring last start by more than 7 metres at Wagga. GIRLS ARE BEST (8) recorded a string of placings before a midfield finish last time. Draws wide but deserves respect. Something for the Multiples: RUBY BABY NZ (4) GIRLS ARE BEST NZ (8)",
+                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Addington\",\"state\":\"NZ\",\"country\":\"NZ\",\"number\":2,\"race_name\":\"Concrete Brothers Trot\",\"time\":\"2024-08-02T05:25:00Z\",\"class\":\"NON-WINNERS  MR48 TO MR50\",\"start_type\":\"Standing\",\"prizemonies\":{\"total_value\":13636},\"localised_prizemonies\":{\"AUD\":{\"total_value\":13636},\"NZD\":{\"total_value\":15000}},\"rail_position\":\"\",\"track_direction\":\"Left\",\"track_surface\":\"All Weather\",\"group\":\"\"}}",
+                        "track_condition_id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+                        "race_comment_alternative" : "AROHA (2) faces the starter for the first time. By Love You and hails from the Bob Butt stable. Will enjoy a nice run from this favourable starting position. Won a recent eight runner trial and has the right credentials to play a major role. TACTICAL BID (8) failed to flatter at the first run back from a break last start when sixth, beaten 15 metres, over 2600m at this track when sent out as the favourite  The driver has some work to do from this wide starting position. Big chance if anywhere near his best. MAJOR CYCLONE (7) was beaten 8 metres on debut last start over 2600m at this track. Has plenty of scope for improvement. MEANDAD (5) is a gelding by Creatine from Donsmedad on debut. Well-placed to score at his first appearance.",
                         "distance_type_id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
                         "generated" : 1,
                         "weather" : {
@@ -152,9 +26,51 @@
                             "icon_uri" : "FINE",
                             "name" : "FINE"
                         },
-                        "race_comment" : "CHEEKY KISS (10) is a promising filly unbeaten after four appearances. Has had two months off since winning the NSW 3YO Bred Final at Menangle but has been kept up to the mark with a trial win. Can maintain her perfect record. RUBY BABY (4) continued a string of wins or placings last time out when runner-up at Dubbo, coming from the back row to be beaten 2.2 metres. Expect her to make an impact again. BACKWARDS FIRST (3) comes right into contention after leading from a similar draw and scoring last start by more than 7 metres at Wagga. GIRLS ARE BEST (8) recorded a string of placings before a midfield finish last time. Draws wide but deserves respect. Something for the Multiples: RUBY BABY NZ (4) GIRLS ARE BEST NZ (8)",
+                        "race_comment" : "AROHA (2) faces the starter for the first time. By Love You and hails from the Bob Butt stable. Will enjoy a nice run from this favourable starting position. Won a recent eight runner trial and has the right credentials to play a major role. TACTICAL BID (8) failed to flatter at the first run back from a break last start when sixth, beaten 15 metres, over 2600m at this track when sent out as the favourite  The driver has some work to do from this wide starting position. Big chance if anywhere near his best. MAJOR CYCLONE (7) was beaten 8 metres on debut last start over 2600m at this track. Has plenty of scope for improvement. MEANDAD (5) is a gelding by Creatine from Donsmedad on debut. Well-placed to score at his first appearance.",
                         "silk_base_url" : "drr38safykj6s.cloudfront.net",
-                        "distance" : 1730,
+                        "distance" : 2000,
+                        "track_condition" : {
+                            "id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+                            "name" : "Good",
+                            "short_name" : "good"
+                        },
+                        "weather_id" : "08e5f78c-1a36-11eb-9269-cef03e67f1a3"
+                    },
+                    "venue_id" : "91a977e1-b438-4534-b138-3cb24536d081",
+                    "venue_name" : "Addington",
+                    "advertised_start" : {
+                        "seconds" : 1722576300
+                    },
+                    "venue_country" : "NZ",
+                    "race_number" : 2,
+                    "venue_state" : "NZ",
+                    "meeting_name" : "Addington"
+                },
+                "a437b54a-7ba8-471f-bba0-bafb2fc59ec3" : {
+                    "race_id" : "a437b54a-7ba8-471f-bba0-bafb2fc59ec3",
+                    "meeting_id" : "181c6737-fa10-4c14-9ec4-ddb2a7c5c67a",
+                    "category_id" : "161d9be2-e909-4326-8c2c-35ed71fb460b",
+                    "race_name" : "Lincoln Farms Mobile Pace",
+                    "race_form" : {
+                        "distance_type" : {
+                            "id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                            "name" : "Metres",
+                            "short_name" : "m"
+                        },
+                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Alexandra Park\",\"state\":\"NZ\",\"country\":\"NZ\",\"number\":1,\"race_name\":\"Lincoln Farms Mobile Pace\",\"time\":\"2024-08-02T05:35:00Z\",\"class\":\"R40 TO R46, R47 TO R50 WITH COND.\",\"start_type\":\"Mobile\",\"prizemonies\":{\"total_value\":13636},\"localised_prizemonies\":{\"AUD\":{\"total_value\":13636},\"NZD\":{\"1st\":8250,\"2nd\":2325,\"3rd\":1425,\"4th\":900,\"total_value\":15000}},\"rail_position\":\"\",\"track_direction\":\"Left\",\"track_surface\":\"All Weather\",\"group\":\"\"}}",
+                        "track_condition_id" : "1db9cab0-b747-11ea-80cf-6a390f79827e",
+                        "race_comment_alternative" : "J T BOE (1) has raced just once for a win by 0.8 metres over 2200m at Cambridge Raceway on May 31. Sure to enjoy an economical run from this draw and can make it 2 wins on the bounce. KOURTNEY KARDASH (9) has been racing well of late. Finished third at her latest appearance over 2200m at this track, beaten 7 metres. Draws out a little on the second line and may need luck at some point but she has the talent to take care of this field. LINCOLN LA MOOSE (6) is close to a win after two successive placings, the latest a third over 1700m at this track. Great chance to break through. MAJOR MAJOR (3) is worth another chance after a last-start seventh over 2200m at Cambridge Raceway two weeks ago. With some better luck, he could even take this out.",
+                        "distance_type_id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                        "generated" : 1,
+                        "weather" : {
+                            "short_name" : "fine",
+                            "id" : "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+                            "icon_uri" : "FINE",
+                            "name" : "FINE"
+                        },
+                        "race_comment" : "J T BOE (1) has raced just once for a win by 0.8 metres over 2200m at Cambridge Raceway on May 31. Sure to enjoy an economical run from this draw and can make it 2 wins on the bounce. KOURTNEY KARDASH (9) has been racing well of late. Finished third at her latest appearance over 2200m at this track, beaten 7 metres. Draws out a little on the second line and may need luck at some point but she has the talent to take care of this field. LINCOLN LA MOOSE (6) is close to a win after two successive placings, the latest a third over 1700m at this track. Great chance to break through. MAJOR MAJOR (3) is worth another chance after a last-start seventh over 2200m at Cambridge Raceway two weeks ago. With some better luck, he could even take this out.",
+                        "silk_base_url" : "drr38safykj6s.cloudfront.net",
+                        "distance" : 2200,
                         "track_condition" : {
                             "id" : "1db9cab0-b747-11ea-80cf-6a390f79827e",
                             "name" : "Fast",
@@ -162,21 +78,21 @@
                         },
                         "weather_id" : "08e5f78c-1a36-11eb-9269-cef03e67f1a3"
                     },
-                    "venue_id" : "ae36a427-0137-4eb5-b10b-7ce822669f39",
-                    "venue_name" : "Bathurst",
+                    "venue_id" : "a55c9368-7bb7-450b-a74a-4098bb0e7c52",
+                    "venue_name" : "Alexandra Park",
                     "advertised_start" : {
-                        "seconds" : 1722411840
+                        "seconds" : 1722576900
                     },
-                    "venue_country" : "AUS",
-                    "race_number" : 2,
-                    "venue_state" : "NSW",
-                    "meeting_name" : "Bathurst"
+                    "venue_country" : "NZ",
+                    "race_number" : 1,
+                    "venue_state" : "NZ",
+                    "meeting_name" : "Alexandra Park"
                 },
-                "cf39f471-94b0-43cc-926b-e7d594399662" : {
-                    "race_id" : "cf39f471-94b0-43cc-926b-e7d594399662",
-                    "meeting_id" : "d36264e4-d492-4fb7-a727-6c4c660f42be",
+                "5412ba0b-6626-4360-8d28-553560d5ac2a" : {
+                    "race_id" : "5412ba0b-6626-4360-8d28-553560d5ac2a",
+                    "meeting_id" : "82468c12-f73c-4757-ad0f-43aaa888870b",
                     "category_id" : "4a2788f8-e825-4d36-9894-efd4baf1cfae",
-                    "race_name" : "Race 9 - 1400",
+                    "race_name" : "Race 1 - 1400",
                     "race_form" : {
                         "track_condition" : {
                             "id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
@@ -187,9 +103,9 @@
                         "track_condition_id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
                         "distance_type_id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
                         "generated" : 1,
-                        "race_comment_alternative" : "YOSHINO RICKEY (4) returns after a spell of ten months. Started the last campaign in good style when in the placings over 1400m at this track. Rates highly and is likely to be prominent. ODD NUMBER (7) reunites with Toyokazu Tano after scoring with ease over 1400m at this track last time. Has a formidable record at this journey with three wins and two placings from seven starts and should be in the finish. THESE DAYS (6) landed her maiden success over this course and distance last time, scoring by a head. Shaping up nicely and she cannot be underestimated. A SHIN CHAMBER (3) is having his first run since April 17. Has a very good fresh record, scoring two times including one over 1400m at this track at the start of last prep. Makes plenty of appeal.",
-                        "race_comment" : "YOSHINO RICKEY (4) returns after a spell of ten months. Started the last campaign in good style when in the placings over 1400m at this track. Rates highly and is likely to be prominent. ODD NUMBER (7) reunites with Toyokazu Tano after scoring with ease over 1400m at this track last time. Has a formidable record at this journey with three wins and two placings from seven starts and should be in the finish. THESE DAYS (6) landed her maiden success over this course and distance last time, scoring by a head. Shaping up nicely and she cannot be underestimated. A SHIN CHAMBER (3) is having his first run since April 17. Has a very good fresh record, scoring two times including one over 1400m at this track at the start of last prep. Makes plenty of appeal.",
-                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Sonoda\",\"state\":\"JPN\",\"country\":\"JPN\",\"number\":9,\"race_name\":\"Race 9 - 1400\",\"time\":\"2024-07-31T07:45:00Z\",\"class\":\"C2\",\"start_type\":\"\",\"prizemonies\":{\"total_value\":11786},\"localised_prizemonies\":{\"AUD\":{\"total_value\":11786},\"NZD\":{\"total_value\":12847}},\"rail_position\":\"\",\"track_direction\":\"Right\",\"track_surface\":\"Dirt\",\"group\":\"\"}}",
+                        "race_comment_alternative" : "MEISHO TANTETSU (4) started at $7.30 last time and ran below expectations, finishing sixth at this track over 1400m. Finds a nice race and can atone. HO O CEDAR (3) stripped fitter last start and ran a better race when third at this track over 1400m. Rates highly and expected to run well. MEI REVE (2) got a long way back last start when 11th over 1400m at this track. Well placed here and is a top-three contender. REPERCUSSION (1) last raced on July 19 when fifth at this track over 1400m. Good enough on his day and can fill a top-three spot.",
+                        "race_comment" : "MEISHO TANTETSU (4) started at $7.30 last time and ran below expectations, finishing sixth at this track over 1400m. Finds a nice race and can atone. HO O CEDAR (3) stripped fitter last start and ran a better race when third at this track over 1400m. Rates highly and expected to run well. MEI REVE (2) got a long way back last start when 11th over 1400m at this track. Well placed here and is a top-three contender. REPERCUSSION (1) last raced on July 19 when fifth at this track over 1400m. Good enough on his day and can fill a top-three spot.",
+                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Sonoda\",\"state\":\"JPN\",\"country\":\"JPN\",\"number\":1,\"race_name\":\"Race 1 - 1400\",\"time\":\"2024-08-02T05:30:00Z\",\"class\":\"C3\",\"start_type\":\"\",\"prizemonies\":{\"total_value\":10235},\"localised_prizemonies\":{\"AUD\":{\"total_value\":10235},\"NZD\":{\"total_value\":11258}},\"rail_position\":\"\",\"track_direction\":\"Right\",\"track_surface\":\"Dirt\",\"group\":\"\"}}",
                         "distance_type" : {
                             "id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
                             "name" : "Metres",
@@ -200,22 +116,321 @@
                     "venue_id" : "6916e1a3-1754-41cd-91a4-484f336aec64",
                     "venue_name" : "Sonoda",
                     "advertised_start" : {
-                        "seconds" : 1722411900
+                        "seconds" : 1722576600
                     },
                     "venue_country" : "JPN",
-                    "race_number" : 9,
+                    "race_number" : 1,
                     "venue_state" : "JPN",
                     "meeting_name" : "Sonoda"
+                },
+                "96725bdd-9de5-4a9b-bec9-9ea8fb895483" : {
+                    "race_id" : "96725bdd-9de5-4a9b-bec9-9ea8fb895483",
+                    "meeting_id" : "3d39803f-504b-4161-a5b9-8bc3907aece4",
+                    "category_id" : "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+                    "race_name" : "Sportsbet Nobody Does It Easier",
+                    "race_form" : {
+                        "distance_type" : {
+                            "id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                            "name" : "Metres",
+                            "short_name" : "m"
+                        },
+                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Warragul\",\"state\":\"VIC\",\"country\":\"AUS\",\"number\":2,\"race_name\":\"Sportsbet Nobody Does It Easier\",\"time\":\"2024-08-02T05:37:00Z\",\"class\":\"Maiden\",\"start_type\":\"\",\"prizemonies\":{\"1st\":1680,\"2nd\":520,\"3rd\":260,\"4th\":75,\"5th\":0,\"6th\":0,\"7th\":0,\"8th\":0,\"total_value\":2535},\"localised_prizemonies\":{\"AUD\":{\"total_value\":2535},\"NZD\":{\"total_value\":2788}},\"rail_position\":\"\",\"track_direction\":\"Left\",\"track_surface\":\"All Weather\",\"group\":\"\"}}",
+                        "track_condition_id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+                        "race_comment_alternative" : "LUNA MIKADO (1) missed the frame last time when fourth (30.31) at Sandown but prior to that had two placings in a row. Better than the latest run and deserves another chance. CAPRICORN ONE (2) is a newcomer for the Graham Brown kennel. Gets every chance from the inside draw. Lot to like about his profile and expected to run well. KAOS CONTROL (3) will run well despite no experience on this track.",
+                        "distance_type_id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                        "generated" : 1,
+                        "weather" : {
+                            "short_name" : "ocast",
+                            "id" : "5ba75165-3cec-11eb-88bb-36fbfdf5d97f",
+                            "icon_uri" : "OCAST",
+                            "name" : "OCAST"
+                        },
+                        "race_comment" : "LUNA MIKADO (1) missed the frame last time when fourth (30.31) at Sandown but prior to that had two placings in a row. Better than the latest run and deserves another chance. CAPRICORN ONE (2) is a newcomer for the Graham Brown kennel. Gets every chance from the inside draw. Lot to like about his profile and expected to run well. KAOS CONTROL (3) will run well despite no experience on this track.",
+                        "silk_base_url" : "drr38safykj6s.cloudfront.net",
+                        "distance" : 460,
+                        "track_condition" : {
+                            "id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+                            "name" : "Good",
+                            "short_name" : "good"
+                        },
+                        "weather_id" : "5ba75165-3cec-11eb-88bb-36fbfdf5d97f"
+                    },
+                    "venue_id" : "d0acc1ca-3548-4719-9145-a892a1e6e1c0",
+                    "venue_name" : "Warragul",
+                    "advertised_start" : {
+                        "seconds" : 1722577020
+                    },
+                    "venue_country" : "AUS",
+                    "race_number" : 2,
+                    "venue_state" : "VIC",
+                    "meeting_name" : "Warragul"
+                },
+                "0ba033a3-8178-4167-be05-b5590a0c5385" : {
+                    "race_id" : "0ba033a3-8178-4167-be05-b5590a0c5385",
+                    "meeting_id" : "73fe1c1b-1f20-4bc1-8c01-6e3c6f74c3c8",
+                    "category_id" : "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+                    "race_name" : "Ladbroke It! Maiden",
+                    "race_form" : {
+                        "distance_type" : {
+                            "id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                            "name" : "Metres",
+                            "short_name" : "m"
+                        },
+                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"The Gardens\",\"state\":\"NSW\",\"country\":\"AUS\",\"number\":2,\"race_name\":\"Ladbroke It! Maiden\",\"time\":\"2024-08-02T05:30:00Z\",\"class\":\"Maiden\",\"start_type\":\"\",\"prizemonies\":{\"1st\":1175,\"2nd\":315,\"3rd\":225,\"4th\":75,\"total_value\":1790},\"localised_prizemonies\":{\"AUD\":{\"total_value\":1790},\"NZD\":{\"total_value\":1969}},\"rail_position\":\"\",\"track_direction\":\"Left\",\"track_surface\":\"All Weather\",\"group\":\"\"}}",
+                        "track_condition_id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+                        "race_comment_alternative" : "STOP IT ZIPPER (8) made a big impression on debut when flew the lids with a sensational early split and hit the frame with a 6 length third (23.33) over 400m at this track. Promising type and can open winning account this time. FASCINATE DAN (4) was strong over this course and distance last time despite filling the minors, finishing 6 lengths behind My Monroe in 23.27 and recording a new PB here. Has the ability and can measure up. PROUD CHOICE (1) has the advantage of a nice draw for his first outing. Can measure up. VERY CHERRY (2) is not to be discarded.",
+                        "distance_type_id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                        "generated" : 1,
+                        "weather" : {
+                            "short_name" : "ocast",
+                            "id" : "5ba75165-3cec-11eb-88bb-36fbfdf5d97f",
+                            "icon_uri" : "OCAST",
+                            "name" : "OCAST"
+                        },
+                        "race_comment" : "STOP IT ZIPPER (8) made a big impression on debut when flew the lids with a sensational early split and hit the frame with a 6 length third (23.33) over 400m at this track. Promising type and can open winning account this time. FASCINATE DAN (4) was strong over this course and distance last time despite filling the minors, finishing 6 lengths behind My Monroe in 23.27 and recording a new PB here. Has the ability and can measure up. PROUD CHOICE (1) has the advantage of a nice draw for his first outing. Can measure up. VERY CHERRY (2) is not to be discarded.",
+                        "silk_base_url" : "drr38safykj6s.cloudfront.net",
+                        "distance" : 400,
+                        "track_condition" : {
+                            "id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+                            "name" : "Good",
+                            "short_name" : "good"
+                        },
+                        "weather_id" : "5ba75165-3cec-11eb-88bb-36fbfdf5d97f"
+                    },
+                    "venue_id" : "1068331f-32f8-42f6-b3ce-d8573358464e",
+                    "venue_name" : "The Gardens",
+                    "advertised_start" : {
+                        "seconds" : 1722576600
+                    },
+                    "venue_country" : "AUS",
+                    "race_number" : 2,
+                    "venue_state" : "NSW",
+                    "meeting_name" : "The Gardens"
+                },
+                "34596b38-0d04-4293-8e41-c7c36f73e792" : {
+                    "race_id" : "34596b38-0d04-4293-8e41-c7c36f73e792",
+                    "meeting_id" : "61d8699a-495f-44c1-be5a-b11d6f58d8b5",
+                    "category_id" : "4a2788f8-e825-4d36-9894-efd4baf1cfae",
+                    "race_name" : "Scone Rsl Super Mdn Plate",
+                    "race_form" : {
+                        "distance_type" : {
+                            "id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                            "name" : "Metres",
+                            "short_name" : "m"
+                        },
+                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Scone\",\"state\":\"NSW\",\"country\":\"AUS\",\"number\":6,\"race_name\":\"Scone Rsl Super Mdn Plate\",\"time\":\"2024-08-02T05:26:00Z\",\"class\":\"MDN\",\"start_type\":\"\",\"prizemonies\":{\"10th\":1500,\"1st\":22000,\"2nd\":8950,\"3rd\":4950,\"4th\":3275,\"5th\":1950,\"6th\":1625,\"7th\":1500,\"8th\":1500,\"9th\":1500,\"total_value\":50000},\"localised_prizemonies\":{\"AUD\":{\"total_value\":50000},\"NZD\":{\"total_value\":55000}},\"rail_position\":\"Out 3m 800m-400m. True Remainder. (Pent: 6.01).\",\"track_direction\":\"Right\",\"track_surface\":\"Turf\",\"group\":\"\"}}",
+                        "track_condition_id" : "2a6e2124-a355-11e7-810d-0a1a4ae29bd2",
+                        "race_comment_alternative" : "JAWHARAT DUBAI (4) has found it tough to get off the mark but has come close on many of occasions. Clearly shoulders her share of ability and this looks her best chance yet. ATOMIC CLOCK (12) turned in an eye-catching finish on debut at Newcastle when flashing home from near last to finish fourth. Is sure to have come on with race experience and can settle much closer to the action this time from the kinder draw. Immediate danger. TAYLA THE SAILOR (6) has just missed in her last two, with the form from her race two back sticking up superbly with a stack of subsequent winners. This is tougher but she deserves consideration. JU TWO (1) is a Divine Prophet gelding stepping out on debut for Lyle Chandler. Showed some positive signs in most recent trial here. Definitely worth paying attention to the market with him.",
+                        "distance_type_id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                        "generated" : 1,
+                        "weather" : {
+                            "short_name" : "ocast",
+                            "id" : "5ba75165-3cec-11eb-88bb-36fbfdf5d97f",
+                            "icon_uri" : "OCAST",
+                            "name" : "OCAST"
+                        },
+                        "race_comment" : "JAWHARAT DUBAI (4) has found it tough to get off the mark but has come close on many of occasions. Clearly shoulders her share of ability and this looks her best chance yet. ATOMIC CLOCK (12) turned in an eye-catching finish on debut at Newcastle when flashing home from near last to finish fourth. Is sure to have come on with race experience and can settle much closer to the action this time from the kinder draw. Immediate danger. TAYLA THE SAILOR (6) has just missed in her last two, with the form from her race two back sticking up superbly with a stack of subsequent winners. This is tougher but she deserves consideration. JU TWO (1) is a Divine Prophet gelding stepping out on debut for Lyle Chandler. Showed some positive signs in most recent trial here. Definitely worth paying attention to the market with him.",
+                        "silk_base_url" : "drr38safykj6s.cloudfront.net",
+                        "distance" : 1300,
+                        "track_condition" : {
+                            "id" : "2a6e2124-a355-11e7-810d-0a1a4ae29bd2",
+                            "name" : "Heavy8",
+                            "short_name" : "heavy8"
+                        },
+                        "weather_id" : "5ba75165-3cec-11eb-88bb-36fbfdf5d97f"
+                    },
+                    "venue_id" : "dfb46713-4135-4557-909a-733579e67ad6",
+                    "venue_name" : "Scone",
+                    "advertised_start" : {
+                        "seconds" : 1722576360
+                    },
+                    "venue_country" : "AUS",
+                    "race_number" : 6,
+                    "venue_state" : "NSW",
+                    "meeting_name" : "Scone"
+                },
+                "98e21768-5eed-403d-8ea8-b5e7e097f1ba" : {
+                    "race_id" : "98e21768-5eed-403d-8ea8-b5e7e097f1ba",
+                    "meeting_id" : "10b1e6a7-0844-477b-8a8e-477cfdf69f79",
+                    "category_id" : "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+                    "race_name" : "Tab Venue Mode",
+                    "race_form" : {
+                        "distance_type" : {
+                            "id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                            "name" : "Metres",
+                            "short_name" : "m"
+                        },
+                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Ipswich (G)\",\"state\":\"QLD\",\"country\":\"AUS\",\"number\":1,\"race_name\":\"Tab Venue Mode\",\"time\":\"2024-08-02T05:27:00Z\",\"class\":\"Maiden\",\"start_type\":\"\",\"prizemonies\":{\"1st\":1950,\"2nd\":600,\"3rd\":300,\"4th\":150,\"total_value\":3000},\"localised_prizemonies\":{\"AUD\":{\"total_value\":3000},\"NZD\":{\"total_value\":3300}},\"rail_position\":\"\",\"track_direction\":\"Right\",\"track_surface\":\"All Weather\",\"group\":\"\"}}",
+                        "track_condition_id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+                        "race_comment_alternative" : "AMARANTHA (2) turned in a better run last time to find a minor placing (20.43) at Capalaba behind Kulnura Kid in a Maiden. Settled off speed and worked to the line nicely. The form from her last run stacks up well. One of the contenders. DAINTREE BLINDER (3) has been mixing form lately, hitting the frame two back before finishing fourth (29.62) at Sale in a Restricted WIN. Expected to do much better this time. NUNNIONG (4) is long overdue and boasts a solid record despite not having won his maiden yet, the latest finishing third at this track. Has placed at his last three starts now. Yet to score from this box but has never missed the frame in three starts. Will give a great sight again.",
+                        "distance_type_id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                        "generated" : 1,
+                        "weather" : {
+                            "short_name" : "fine",
+                            "id" : "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+                            "icon_uri" : "FINE",
+                            "name" : "FINE"
+                        },
+                        "race_comment" : "AMARANTHA (2) turned in a better run last time to find a minor placing (20.43) at Capalaba behind Kulnura Kid in a Maiden. Settled off speed and worked to the line nicely. The form from her last run stacks up well. One of the contenders. DAINTREE BLINDER (3) has been mixing form lately, hitting the frame two back before finishing fourth (29.62) at Sale in a Restricted WIN. Expected to do much better this time. NUNNIONG (4) is long overdue and boasts a solid record despite not having won his maiden yet, the latest finishing third at this track. Has placed at his last three starts now. Yet to score from this box but has never missed the frame in three starts. Will give a great sight again.",
+                        "silk_base_url" : "drr38safykj6s.cloudfront.net",
+                        "distance" : 431,
+                        "track_condition" : {
+                            "id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+                            "name" : "Good",
+                            "short_name" : "good"
+                        },
+                        "weather_id" : "08e5f78c-1a36-11eb-9269-cef03e67f1a3"
+                    },
+                    "venue_id" : "c8136662-1a0c-4150-b2a3-e338c9e4a56f",
+                    "venue_name" : "Ipswich (G)",
+                    "advertised_start" : {
+                        "seconds" : 1722576420
+                    },
+                    "venue_country" : "AUS",
+                    "race_number" : 1,
+                    "venue_state" : "QLD",
+                    "meeting_name" : "Ipswich (G)"
+                },
+                "9f069eed-c991-4b4e-b4fa-6ed0746a168c" : {
+                    "race_id" : "9f069eed-c991-4b4e-b4fa-6ed0746a168c",
+                    "meeting_id" : "9bf0c89f-5545-4e43-ac0d-02434792412c",
+                    "category_id" : "4a2788f8-e825-4d36-9894-efd4baf1cfae",
+                    "race_name" : "Rob Young Memorial Hcp (C3)",
+                    "race_form" : {
+                        "distance_type" : {
+                            "id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                            "name" : "Metres",
+                            "short_name" : "m"
+                        },
+                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Coffs Harbour\",\"state\":\"NSW\",\"country\":\"AUS\",\"number\":6,\"race_name\":\"Rob Young Memorial Hcp (C3)\",\"time\":\"2024-08-02T05:24:00Z\",\"class\":\"CL3\",\"start_type\":\"\",\"prizemonies\":{\"10th\":725,\"1st\":15000,\"2nd\":5300,\"3rd\":2800,\"4th\":1475,\"5th\":975,\"6th\":800,\"7th\":725,\"8th\":725,\"9th\":725,\"total_value\":30000,\"trophy_total_value\":150},\"localised_prizemonies\":{\"AUD\":{\"total_value\":30000},\"NZD\":{\"total_value\":33000}},\"rail_position\":\"True.\",\"track_direction\":\"Right\",\"track_surface\":\"Turf\",\"group\":\"\"}}",
+                        "track_condition_id" : "081c1e04-a6ed-11e7-96c3-0656c85e309e",
+                        "race_comment_alternative" : "PRETTY SHAMROCK (12) trained on the track and returned good figures with the 58kg when a tenacious winner over 1100m at Grafton a week and a half ago. This is much stronger but looks to have solid prospects with the 55kg. Gets every chance from the low draw. OVER 'N' OUT (9) big improver at second run back when attacked the line late to finish third over 1250m at Taree on July 23. Firmer track helps and having his first start on his home course. Genuine top-three contender. BOAMBEE BEACH (11) has been a model of consistency this time in and due for a change of luck. Powered late from well back when a slashing third over 1100m at Grafton on July 17. Gets in light with the claim from the inside draw. No surprise to see her settle much closer in the run today. CARDSHARP (14) lightly raced gelding who improved sharply second-up when a gritty head winner over 1100m at Grafton on July 21. Goes well here and can sneak into the minor money.",
+                        "distance_type_id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                        "generated" : 1,
+                        "weather" : {
+                            "short_name" : "fine",
+                            "id" : "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+                            "icon_uri" : "FINE",
+                            "name" : "FINE"
+                        },
+                        "race_comment" : "PRETTY SHAMROCK (12) trained on the track and returned good figures with the 58kg when a tenacious winner over 1100m at Grafton a week and a half ago. This is much stronger but looks to have solid prospects with the 55kg. Gets every chance from the low draw. OVER 'N' OUT (9) big improver at second run back when attacked the line late to finish third over 1250m at Taree on July 23. Firmer track helps and having his first start on his home course. Genuine top-three contender. BOAMBEE BEACH (11) has been a model of consistency this time in and due for a change of luck. Powered late from well back when a slashing third over 1100m at Grafton on July 17. Gets in light with the claim from the inside draw. No surprise to see her settle much closer in the run today. CARDSHARP (14) lightly raced gelding who improved sharply second-up when a gritty head winner over 1100m at Grafton on July 21. Goes well here and can sneak into the minor money.",
+                        "silk_base_url" : "drr38safykj6s.cloudfront.net",
+                        "distance" : 1200,
+                        "track_condition" : {
+                            "id" : "081c1e04-a6ed-11e7-96c3-0656c85e309e",
+                            "name" : "Soft6",
+                            "short_name" : "soft6"
+                        },
+                        "weather_id" : "08e5f78c-1a36-11eb-9269-cef03e67f1a3"
+                    },
+                    "venue_id" : "c0f8179d-d5ed-45cd-becd-b5adcee3e38f",
+                    "venue_name" : "Coffs Harbour",
+                    "advertised_start" : {
+                        "seconds" : 1722576240
+                    },
+                    "venue_country" : "AUS",
+                    "race_number" : 6,
+                    "venue_state" : "NSW",
+                    "meeting_name" : "Coffs Harbour"
+                },
+                "ac9a1e31-5a23-4266-bffc-eeccba1c7275" : {
+                    "race_id" : "ac9a1e31-5a23-4266-bffc-eeccba1c7275",
+                    "meeting_id" : "344cfb68-009f-41be-91cf-482e67a35474",
+                    "category_id" : "4a2788f8-e825-4d36-9894-efd4baf1cfae",
+                    "race_name" : "Queensland Thermo King (Bm60)",
+                    "race_form" : {
+                        "distance_type" : {
+                            "id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                            "name" : "Metres",
+                            "short_name" : "m"
+                        },
+                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Ipswich\",\"state\":\"QLD\",\"country\":\"AUS\",\"number\":6,\"race_name\":\"Queensland Thermo King (Bm60)\",\"time\":\"2024-08-02T05:33:00Z\",\"class\":\"BM60\",\"start_type\":\"\",\"prizemonies\":{\"10th\":500,\"1st\":15600,\"2nd\":4800,\"3rd\":2650,\"4th\":1450,\"5th\":1000,\"6th\":500,\"7th\":500,\"8th\":500,\"9th\":500,\"total_value\":28000},\"localised_prizemonies\":{\"AUD\":{\"total_value\":28000},\"NZD\":{\"total_value\":30800}},\"rail_position\":\"Out 3m Entire. (Pent: 4.9).\",\"track_direction\":\"Right\",\"track_surface\":\"Turf\",\"group\":\"\"}}",
+                        "track_condition_id" : "11d7e662-487a-11ea-9d54-4689356d4521",
+                        "race_comment_alternative" : "PIANIST (7) found a dryer surface and spiked her form winning a 65 easily here. She flies this track\/trip and receives a handy 1.5kg claim. Rates the best and can swamp them late. MAGURO (5) found PIANIST 1.8L too good at Ipswich but spiked his figures and he meets that galloper on better terms. Maps for the run of the race and has winning claims. UCHI (3) made the hat-trick winning at Toowoomba in this grade first up over 860m. That was expected and fitter she can lift off that. She will ride the speed and the 3kg claim brings her right into it. CURRY LEGEND (13) is a leader who's knocking on the door. Back to the shorter sprint is a slight niggle but his effort in a CL2 at the Sunshine Coast last time was good.",
+                        "distance_type_id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                        "generated" : 1,
+                        "weather" : {
+                            "short_name" : "fine",
+                            "id" : "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+                            "icon_uri" : "FINE",
+                            "name" : "FINE"
+                        },
+                        "race_comment" : "PIANIST (7) found a dryer surface and spiked her form winning a 65 easily here. She flies this track\/trip and receives a handy 1.5kg claim. Rates the best and can swamp them late. MAGURO (5) found PIANIST 1.8L too good at Ipswich but spiked his figures and he meets that galloper on better terms. Maps for the run of the race and has winning claims. UCHI (3) made the hat-trick winning at Toowoomba in this grade first up over 860m. That was expected and fitter she can lift off that. She will ride the speed and the 3kg claim brings her right into it. CURRY LEGEND (13) is a leader who's knocking on the door. Back to the shorter sprint is a slight niggle but his effort in a CL2 at the Sunshine Coast last time was good.",
+                        "silk_base_url" : "drr38safykj6s.cloudfront.net",
+                        "distance" : 800,
+                        "track_condition" : {
+                            "id" : "11d7e662-487a-11ea-9d54-4689356d4521",
+                            "name" : "Good4",
+                            "short_name" : "good4"
+                        },
+                        "weather_id" : "08e5f78c-1a36-11eb-9269-cef03e67f1a3"
+                    },
+                    "venue_id" : "27687780-1159-46cf-9788-f97c6a77cc88",
+                    "venue_name" : "Ipswich",
+                    "advertised_start" : {
+                        "seconds" : 1722576780
+                    },
+                    "venue_country" : "AUS",
+                    "race_number" : 6,
+                    "venue_state" : "QLD",
+                    "meeting_name" : "Ipswich"
+                },
+                "b6eb130e-7309-4504-8908-bd2165e69698" : {
+                    "race_id" : "b6eb130e-7309-4504-8908-bd2165e69698",
+                    "meeting_id" : "e425325f-d3b0-405c-b053-f189aebd63f2",
+                    "category_id" : "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+                    "race_name" : "Ladbrokes Fast Withdrawals",
+                    "race_form" : {
+                        "distance_type" : {
+                            "id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                            "name" : "Metres",
+                            "short_name" : "m"
+                        },
+                        "additional_data" : "{\"revealed_race_info\":{\"track_name\":\"Goulburn\",\"state\":\"NSW\",\"country\":\"AUS\",\"number\":10,\"race_name\":\"Ladbrokes Fast Withdrawals\",\"time\":\"2024-08-02T05:33:00Z\",\"class\":\"5th Grade\",\"start_type\":\"\",\"prizemonies\":{\"total_value\":2310},\"localised_prizemonies\":{\"AUD\":{\"total_value\":2310},\"NZD\":{\"total_value\":2541}},\"rail_position\":\"\",\"track_direction\":\"Right\",\"track_surface\":\"All Weather\",\"group\":\"\"}}",
+                        "track_condition_id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+                        "race_comment_alternative" : "ERRIGAL CIARAN (1) finished third (20.34) two back at this track but out of the placings last time when 6th there. The form from his last run is stacking up nicely. Ready to return to form. OUT OF TIME (5) was prominent throughout when winning two back but could manage only midfield last time when 4th and beaten 8 lengths at this track (20.57). Safe beginner but has a tricky box to overcome. Likely to play a prominent role. ZIPPING NEYMAR (6) ran below best last time finishing fourth (25.43) over 440m at this track in a Grade 5. Leading chance. OH SO SHEIKE (8) did a good job to finish third last time out over 297m at Dapto (17.41) in a Grade 5, the second top-three finish on the trot.",
+                        "distance_type_id" : "570775ae-09ec-42d5-989d-7c8f06366aa7",
+                        "generated" : 1,
+                        "weather" : {
+                            "short_name" : "ocast",
+                            "id" : "5ba75165-3cec-11eb-88bb-36fbfdf5d97f",
+                            "icon_uri" : "OCAST",
+                            "name" : "OCAST"
+                        },
+                        "race_comment" : "ERRIGAL CIARAN (1) finished third (20.34) two back at this track but out of the placings last time when 6th there. The form from his last run is stacking up nicely. Ready to return to form. OUT OF TIME (5) was prominent throughout when winning two back but could manage only midfield last time when 4th and beaten 8 lengths at this track (20.57). Safe beginner but has a tricky box to overcome. Likely to play a prominent role. ZIPPING NEYMAR (6) ran below best last time finishing fourth (25.43) over 440m at this track in a Grade 5. Leading chance. OH SO SHEIKE (8) did a good job to finish third last time out over 297m at Dapto (17.41) in a Grade 5, the second top-three finish on the trot.",
+                        "silk_base_url" : "drr38safykj6s.cloudfront.net",
+                        "distance" : 350,
+                        "track_condition" : {
+                            "id" : "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+                            "name" : "Good",
+                            "short_name" : "good"
+                        },
+                        "weather_id" : "5ba75165-3cec-11eb-88bb-36fbfdf5d97f"
+                    },
+                    "venue_id" : "5adab327-6773-445c-ab59-906df7cc43c3",
+                    "venue_name" : "Goulburn",
+                    "advertised_start" : {
+                        "seconds" : 1722576780
+                    },
+                    "venue_country" : "AUS",
+                    "race_number" : 10,
+                    "venue_state" : "NSW",
+                    "meeting_name" : "Goulburn"
                 }
             },
             "next_to_go_ids" : [
-                "329f8fee-8a91-4430-ac70-0a0372097462",
-                "cf39f471-94b0-43cc-926b-e7d594399662",
-                "ce2ba65f-f5ee-4ca9-b8bd-dd5ab9c70484",
-                "db268837-b05a-4a0c-9669-e090723b478d",
-                "3adbea78-b61a-4c3c-a6f0-b911efa0bbbd"
+                "9f069eed-c991-4b4e-b4fa-6ed0746a168c",
+                "8630db92-60f3-4489-9bca-1066758e2270",
+                "34596b38-0d04-4293-8e41-c7c36f73e792",
+                "98e21768-5eed-403d-8ea8-b5e7e097f1ba",
+                "5412ba0b-6626-4360-8d28-553560d5ac2a",
+                "0ba033a3-8178-4167-be05-b5590a0c5385",
+                "b6eb130e-7309-4504-8908-bd2165e69698",
+                "ac9a1e31-5a23-4266-bffc-eeccba1c7275",
+                "a437b54a-7ba8-471f-bba0-bafb2fc59ec3",
+                "96725bdd-9de5-4a9b-bec9-9ea8fb895483"
             ]
         },
-        "message" : "Next 5 races from each category"
+        "message" : "Next 10 races from each category"
     }
 }

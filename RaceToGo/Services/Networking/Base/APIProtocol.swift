@@ -16,7 +16,7 @@ protocol APIProtocol {
 }
 
 extension APIProtocol {
-
+    // Commonly used headers across all requests
     static private var defaultHeaders: [String: String] {
         [
             "User-Agent": APIConstants.userAgent,

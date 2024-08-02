@@ -9,7 +9,6 @@ import Foundation
 
 // Create mocks from real json payload.
 // Mocks can be used for previews and unit tests.
-
 protocol Mockable {
     associatedtype Mock: RawRepresentable where Mock.RawValue: StringProtocol
 }
@@ -28,5 +27,13 @@ extension Decodable where Self: Mockable {
             fatalError("Unable to serialize the json file")
         }
         return typeData
+    }
+
+    static func mockDecoded(_ key: Self.Mock? = nil) -> Self {
+        let data = mock(key)
+        guard let decodedObject = try? APIConstants.customJSONDecoder.decode(Self.self, from: data) else {
+            fatalError("Unable to decode object")
+        }
+        return decodedObject
     }
 }

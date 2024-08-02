@@ -22,12 +22,12 @@ final class NextRacesViewModel: BaseViewModel {
     // When reaching this number of not expired races, fetch new data
     private let raceIndexToFetchNext = 7
 
-    // Do not display races that are over 1 min in
-    private let advertisedStartLimit: TimeInterval?
+    // Do not display races that are over 1 min past the advertised start
+    private let advertisedStartLimit: TimeInterval
 
     // MARK: - Variables
 
-    @Published private var fetchedRaces: [Race] = []
+    @Published private(set) var fetchedRaces: [Race] = []
 
     @Published var selectedCategories: [CategoryFilterViewModel] = RaceCategory.allCases.map {
         .init(category: $0, isOn: true)
@@ -49,7 +49,7 @@ final class NextRacesViewModel: BaseViewModel {
     }
 
     var racesStartingSoon: [Race] {
-        fetchedRaces.filter({ date.distance(to: $0.advertisedStart) > advertisedStartLimit ?? -.infinity })
+        fetchedRaces.filter({ date.distance(to: $0.advertisedStart) > advertisedStartLimit })
     }
 
     var allCategories: [RaceCategory] {
@@ -66,14 +66,20 @@ final class NextRacesViewModel: BaseViewModel {
         )
     }
 
+    var shouldFetchNewData: Bool {
+        // Could API return less than 10 races at some point?
+        // In that case perhaps no need to fetch new races
+        racesStartingSoon.count <= raceIndexToFetchNext && fetchedRaces.count >= raceLimitToFetch
+    }
+
     // MARK: - Dependencies
 
-    @Published private var date: Date
+    @Published var date: Date
     private let apiService: APIServiceProtocol
 
     // MARK: - Lifecycle
 
-    init(apiService: APIServiceProtocol, date: Date = Date(), advertisedStartLimit: TimeInterval? = -60) {
+    init(apiService: APIServiceProtocol, date: Date = Date(), advertisedStartLimit: TimeInterval = -60) {
         self.apiService = apiService
         self.date = date
         self.advertisedStartLimit = advertisedStartLimit
@@ -109,9 +115,7 @@ final class NextRacesViewModel: BaseViewModel {
     }
 
     private func fetchNewRacesIfNeeded() {
-        // Can races be finished for the day, so the API returns less than 10 races at some point?
-        // In that case no need to fetch new races
-        guard racesStartingSoon.count <= raceIndexToFetchNext && fetchedRaces.count == raceLimitToFetch else { return }
+        guard shouldFetchNewData else { return }
         Task {
             await fetchNextRaces()
         }

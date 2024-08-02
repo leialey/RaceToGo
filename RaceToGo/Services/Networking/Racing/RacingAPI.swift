@@ -7,11 +7,11 @@
 
 import Foundation
 
-// E.g. next 10 races: https://api.neds.com.au/rest/v1/racing/?method=nextraces&count=10
-
 enum RacingAPI: APIProtocol {
+    // E.g. next 10 races: https://api.neds.com.au/rest/v1/racing/?method=nextraces&count=10
     case nextRaces(limit: Int)
 
+    // used for mocks and unit tests only
     var description: String {
         switch self {
         case .nextRaces:

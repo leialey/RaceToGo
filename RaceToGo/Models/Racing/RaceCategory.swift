@@ -7,10 +7,12 @@
 
 import Foundation
 
-enum RaceCategory: Decodable, CaseIterable, Identifiable {
+enum RaceCategory: Decodable, CaseIterable {
     case horse
     case harness
     case greyhound
+
+    // MARK: - Init
 
     init?(from idString: String) {
         switch idString {
@@ -25,7 +27,7 @@ enum RaceCategory: Decodable, CaseIterable, Identifiable {
         }
     }
 
-    var id: Self { self }
+    // MARK: - Calculated variables
 
     var name: String {
         switch self {
@@ -48,4 +50,10 @@ enum RaceCategory: Decodable, CaseIterable, Identifiable {
             return "🏇🏻"
         }
     }
+}
+
+// MARK: - Identifiable
+
+extension RaceCategory: Identifiable {
+    var id: Self { self }
 }

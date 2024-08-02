@@ -23,7 +23,7 @@
 		E516733C2C5A0B69005534F1 /* NextRacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516733B2C5A0B69005534F1 /* NextRacesViewModel.swift */; };
 		E516733F2C5A0BC2005534F1 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516733E2C5A0BC2005534F1 /* BaseViewModel.swift */; };
 		E51673432C5A0EB7005534F1 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673422C5A0EB7005534F1 /* BaseView.swift */; };
-		E51673452C5A0FA4005534F1 /* ErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673442C5A0FA4005534F1 /* ErrorAlert.swift */; };
+		E51673452C5A0FA4005534F1 /* ErrorAlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673442C5A0FA4005534F1 /* ErrorAlertViewModel.swift */; };
 		E516734A2C5A1109005534F1 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673492C5A1109005534F1 /* CustomError.swift */; };
 		E516734C2C5A1401005534F1 /* NextRacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516734B2C5A1401005534F1 /* NextRacesView.swift */; };
 		E516734E2C5A150E005534F1 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516734D2C5A150E005534F1 /* MockAPIService.swift */; };
@@ -45,6 +45,9 @@
 		E5806CBD2C5C6ED40057D5BC /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CBC2C5C6ED40057D5BC /* EmptyListView.swift */; };
 		E5806CBF2C5C6F840057D5BC /* EmptyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CBE2C5C6F840057D5BC /* EmptyListViewModel.swift */; };
 		E5806CC12C5C70C00057D5BC /* ToggleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CC02C5C70C00057D5BC /* ToggleViewModel.swift */; };
+		E5806CC32C5C73010057D5BC /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CC22C5C73010057D5BC /* APIServiceProtocol.swift */; };
+		E5806CCA2C5C86E30057D5BC /* RacingAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CC92C5C86E30057D5BC /* RacingAPITests.swift */; };
+		E5806CCE2C5C8EA30057D5BC /* NextRacesResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CCD2C5C8EA30057D5BC /* NextRacesResponseTests.swift */; };
 		E5F86E922C5AFC7F00E5655F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E5F86E912C5AFC7F00E5655F /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
@@ -85,7 +88,7 @@
 		E516733B2C5A0B69005534F1 /* NextRacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextRacesViewModel.swift; sourceTree = "<group>"; };
 		E516733E2C5A0BC2005534F1 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		E51673422C5A0EB7005534F1 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
-		E51673442C5A0FA4005534F1 /* ErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlert.swift; sourceTree = "<group>"; };
+		E51673442C5A0FA4005534F1 /* ErrorAlertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlertViewModel.swift; sourceTree = "<group>"; };
 		E51673492C5A1109005534F1 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		E516734B2C5A1401005534F1 /* NextRacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextRacesView.swift; sourceTree = "<group>"; };
 		E516734D2C5A150E005534F1 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
@@ -107,6 +110,9 @@
 		E5806CBC2C5C6ED40057D5BC /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
 		E5806CBE2C5C6F840057D5BC /* EmptyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListViewModel.swift; sourceTree = "<group>"; };
 		E5806CC02C5C70C00057D5BC /* ToggleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleViewModel.swift; sourceTree = "<group>"; };
+		E5806CC22C5C73010057D5BC /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
+		E5806CC92C5C86E30057D5BC /* RacingAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingAPITests.swift; sourceTree = "<group>"; };
+		E5806CCD2C5C8EA30057D5BC /* NextRacesResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextRacesResponseTests.swift; sourceTree = "<group>"; };
 		E5F86E912C5AFC7F00E5655F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,8 +164,7 @@
 		E51672F62C59F8F0005534F1 /* RaceToGo */ = {
 			isa = PBXGroup;
 			children = (
-				E51672F72C59F8F0005534F1 /* RaceToGoApp.swift */,
-				E5806CAD2C5B25220057D5BC /* AppViewModel.swift */,
+				E5806CC42C5C7A5B0057D5BC /* App */,
 				E51673472C5A10F6005534F1 /* Extensions */,
 				E51673272C59FB16005534F1 /* Services */,
 				E51673222C59F93A005534F1 /* Models */,
@@ -181,7 +186,8 @@
 		E51673072C59F8F2005534F1 /* RaceToGoTests */ = {
 			isa = PBXGroup;
 			children = (
-				E516735C2C5A36A0005534F1 /* Base */,
+				E516735C2C5A36A0005534F1 /* Base  */,
+				E5806CC62C5C86C80057D5BC /* Services */,
 				E51673582C5A362E005534F1 /* Views */,
 			);
 			path = RaceToGoTests;
@@ -199,6 +205,7 @@
 		E51673222C59F93A005534F1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E5806CC52C5C7C140057D5BC /* Common */,
 				E516735F2C5A3AE8005534F1 /* Racing */,
 			);
 			path = Models;
@@ -238,6 +245,7 @@
 				E516732D2C5A0136005534F1 /* APIError.swift */,
 				E51673312C5A0307005534F1 /* APIMethod.swift */,
 				E516732F2C5A0231005534F1 /* APIProtocol.swift */,
+				E5806CC22C5C73010057D5BC /* APIServiceProtocol.swift */,
 				E516732A2C59FB71005534F1 /* APIService.swift */,
 				E516734D2C5A150E005534F1 /* MockAPIService.swift */,
 			);
@@ -301,33 +309,32 @@
 		E51673582C5A362E005534F1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E51673592C5A3632005534F1 /* Next Races */,
+				E51673592C5A3632005534F1 /* Racing */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		E51673592C5A3632005534F1 /* Next Races */ = {
+		E51673592C5A3632005534F1 /* Racing */ = {
 			isa = PBXGroup;
 			children = (
-				E516735A2C5A363F005534F1 /* NextRacesViewModelTests.swift */,
-				E51673692C5A5588005534F1 /* RaceViewModelTests.swift */,
+				E5806CD12C5C94DD0057D5BC /* Next Races */,
 			);
-			path = "Next Races";
+			path = Racing;
 			sourceTree = "<group>";
 		};
-		E516735C2C5A36A0005534F1 /* Base */ = {
+		E516735C2C5A36A0005534F1 /* Base  */ = {
 			isa = PBXGroup;
 			children = (
 				E516735D2C5A36AF005534F1 /* MockedDependenciesTestCase.swift */,
 			);
-			path = Base;
+			path = "Base ";
 			sourceTree = "<group>";
 		};
 		E516735F2C5A3AE8005534F1 /* Racing */ = {
 			isa = PBXGroup;
 			children = (
-				E51673252C59F9C5005534F1 /* RaceCategory.swift */,
 				E51673232C59F952005534F1 /* Race.swift */,
+				E51673252C59F9C5005534F1 /* RaceCategory.swift */,
 			);
 			path = Racing;
 			sourceTree = "<group>";
@@ -343,9 +350,9 @@
 		E516736D2C5A6690005534F1 /* Next Races */ = {
 			isa = PBXGroup;
 			children = (
-				E51673562C5A25B9005534F1 /* NextRacesResponse.json */,
 				E51673522C5A2369005534F1 /* NextRacesResponse.swift */,
 				E51673632C5A41B3005534F1 /* NextRacesResponse+Mockable.swift */,
+				E51673562C5A25B9005534F1 /* NextRacesResponse.json */,
 			);
 			path = "Next Races";
 			sourceTree = "<group>";
@@ -390,7 +397,7 @@
 		E5806CB72C5C6DD80057D5BC /* Error Alert */ = {
 			isa = PBXGroup;
 			children = (
-				E51673442C5A0FA4005534F1 /* ErrorAlert.swift */,
+				E51673442C5A0FA4005534F1 /* ErrorAlertViewModel.swift */,
 			);
 			path = "Error Alert";
 			sourceTree = "<group>";
@@ -411,6 +418,88 @@
 				E5806CBE2C5C6F840057D5BC /* EmptyListViewModel.swift */,
 			);
 			path = "Empty List";
+			sourceTree = "<group>";
+		};
+		E5806CC42C5C7A5B0057D5BC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E51672F72C59F8F0005534F1 /* RaceToGoApp.swift */,
+				E5806CAD2C5B25220057D5BC /* AppViewModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E5806CC52C5C7C140057D5BC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E5806CC62C5C86C80057D5BC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E5806CC72C5C86D00057D5BC /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E5806CC72C5C86D00057D5BC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E5806CC82C5C86D80057D5BC /* Racing */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E5806CC82C5C86D80057D5BC /* Racing */ = {
+			isa = PBXGroup;
+			children = (
+				E5806CC92C5C86E30057D5BC /* RacingAPITests.swift */,
+				E5806CCB2C5C8E860057D5BC /* Responses */,
+			);
+			path = Racing;
+			sourceTree = "<group>";
+		};
+		E5806CCB2C5C8E860057D5BC /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				E5806CCC2C5C8E920057D5BC /* Next Races */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		E5806CCC2C5C8E920057D5BC /* Next Races */ = {
+			isa = PBXGroup;
+			children = (
+				E5806CCD2C5C8EA30057D5BC /* NextRacesResponseTests.swift */,
+			);
+			path = "Next Races";
+			sourceTree = "<group>";
+		};
+		E5806CD12C5C94DD0057D5BC /* Next Races */ = {
+			isa = PBXGroup;
+			children = (
+				E5806CD22C5C94E80057D5BC /* Subviews */,
+				E516735A2C5A363F005534F1 /* NextRacesViewModelTests.swift */,
+			);
+			path = "Next Races";
+			sourceTree = "<group>";
+		};
+		E5806CD22C5C94E80057D5BC /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E5806CD32C5C94EF0057D5BC /* Race List Row */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		E5806CD32C5C94EF0057D5BC /* Race List Row */ = {
+			isa = PBXGroup;
+			children = (
+				E51673692C5A5588005534F1 /* RaceViewModelTests.swift */,
+			);
+			path = "Race List Row";
 			sourceTree = "<group>";
 		};
 		E5F86E902C5AFC6300E5655F /* Resources */ = {
@@ -574,6 +663,7 @@
 				E51673682C5A4FFF005534F1 /* RaceViewModel.swift in Sources */,
 				E51673662C5A4FF0005534F1 /* RaceListRow.swift in Sources */,
 				E51673622C5A410C005534F1 /* Decodable+Mockable.swift in Sources */,
+				E5806CC32C5C73010057D5BC /* APIServiceProtocol.swift in Sources */,
 				E516732B2C59FB71005534F1 /* APIService.swift in Sources */,
 				E51672F82C59F8F0005534F1 /* RaceToGoApp.swift in Sources */,
 				E5806CB02C5C685A0057D5BC /* CategoryFilterViewModel.swift in Sources */,
@@ -581,7 +671,7 @@
 				E51673532C5A2369005534F1 /* NextRacesResponse.swift in Sources */,
 				E51673432C5A0EB7005534F1 /* BaseView.swift in Sources */,
 				E516734C2C5A1401005534F1 /* NextRacesView.swift in Sources */,
-				E51673452C5A0FA4005534F1 /* ErrorAlert.swift in Sources */,
+				E51673452C5A0FA4005534F1 /* ErrorAlertViewModel.swift in Sources */,
 				E516732E2C5A0136005534F1 /* APIError.swift in Sources */,
 				E51673322C5A0307005534F1 /* APIMethod.swift in Sources */,
 				E5806CBD2C5C6ED40057D5BC /* EmptyListView.swift in Sources */,
@@ -592,6 +682,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5806CCA2C5C86E30057D5BC /* RacingAPITests.swift in Sources */,
+				E5806CCE2C5C8EA30057D5BC /* NextRacesResponseTests.swift in Sources */,
 				E516735B2C5A363F005534F1 /* NextRacesViewModelTests.swift in Sources */,
 				E516736A2C5A5588005534F1 /* RaceViewModelTests.swift in Sources */,
 				E516735E2C5A36AF005534F1 /* MockedDependenciesTestCase.swift in Sources */,

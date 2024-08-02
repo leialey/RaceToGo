@@ -15,7 +15,7 @@ struct EmptyListView: View {
         VStack {
             Image(systemName: "questionmark.circle")
                 .font(.title)
-                .padding(.bottom, 8)
+                .padding(.bottom, 3)
                 .accessibilityHidden(true)
 
             Text(viewModel.title)

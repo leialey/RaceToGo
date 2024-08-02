@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// View that holds the common logic between all main views
 struct BaseView<Content: View, ViewModel: BaseViewModelProtocol>: View {
     @StateObject var viewModel: ViewModel
     @ViewBuilder let content: Content

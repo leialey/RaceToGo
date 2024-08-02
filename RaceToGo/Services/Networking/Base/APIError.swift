@@ -13,6 +13,7 @@ enum APIError: CustomError {
     case badRequest(errorCode: Int)
     case badResponse
 
+    // Error presented to user - needs to be localized
     var userFacingError: String {
         switch self {
         case .decodingError, .invalidURL, .badRequest, .badResponse:
@@ -20,6 +21,7 @@ enum APIError: CustomError {
         }
     }
 
+    // Error presented to developer for debugging purposes - doesn't need to be localized
     var developerFacingError: String {
         switch self {
         case .decodingError:

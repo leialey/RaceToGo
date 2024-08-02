@@ -13,8 +13,8 @@ struct RaceViewModel: Identifiable {
     let categoryName: String
     let raceNumber: String
     let meetingName: String
-    let timeLeftString: String
-    let timeLeftA11yLabel: String
+    let startsInString: String
+    let startsInA11yLabel: String
 
     init(race: Race, date: Date) {
         id = race.id
@@ -23,9 +23,9 @@ struct RaceViewModel: Identifiable {
         raceNumber = String(localized: "R\(race.number)")
         meetingName = race.meetingName
         let timeInterval = date.distance(to: race.advertisedStart)
-        timeLeftString = Self.getFormattedTime(for: timeInterval, forAccessibility: false)
+        startsInString = Self.getFormattedTime(for: timeInterval, forAccessibility: false)
         let formattedForA11y = Self.getFormattedTime(for: timeInterval, forAccessibility: true)
-        timeLeftA11yLabel = String(localized: "starts in \(formattedForA11y)")
+        startsInA11yLabel = String(localized: "starts in \(formattedForA11y)")
     }
 
     private static func getFormattedTime(for timeInterval: TimeInterval, forAccessibility: Bool) -> String {

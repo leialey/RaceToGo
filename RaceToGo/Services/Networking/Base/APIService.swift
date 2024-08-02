@@ -7,20 +7,6 @@
 
 import Foundation
 
-protocol APIServiceProtocol: AnyObject {
-    func request<T: Decodable>(route: APIProtocol) async throws -> T
-    func decode<T: Decodable>(from data: Data) throws -> T
-}
-
-extension APIServiceProtocol {
-    func decode<T: Decodable>(from data: Data) throws -> T {
-        let decoder = JSONDecoder()
-        decoder.keyDecodingStrategy = .convertFromSnakeCase
-        decoder.dateDecodingStrategy = .secondsSince1970
-        return try decoder.decode(T.self, from: data)
-    }
-}
-
 final class APIService: APIServiceProtocol {
     typealias T = Decodable
 
@@ -36,7 +22,7 @@ final class APIService: APIServiceProtocol {
                 #if DEBUG
                 print("Received 200 response with json: \(data.toJsonString() ?? "nil")")
                 #endif
-                return try decode(from: data)
+                return try APIConstants.customJSONDecoder.decode(T.self, from: data)
             } catch {
                 #if DEBUG
                 print(error)

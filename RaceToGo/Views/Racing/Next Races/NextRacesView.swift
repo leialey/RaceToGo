@@ -75,7 +75,7 @@ struct NextRacesView: View {
             apiService: MockAPIService(data: [
                 "next races": NextRacesResponse.mock()
             ]),
-            advertisedStartLimit: nil
+            advertisedStartLimit: -.infinity
         )
     )
 }

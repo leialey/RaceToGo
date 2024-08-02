@@ -8,12 +8,12 @@
 import Foundation
 
 protocol BaseViewModelProtocol: ObservableObject {
-    var errorAlert: ErrorAlert? { get set }
+    var errorAlert: ErrorAlertViewModel? { get set }
     var isLoading: Bool { get set }
 }
 
 // Holds all the common logic between view models
 class BaseViewModel: BaseViewModelProtocol {
-    @Published var errorAlert: ErrorAlert?
+    @Published var errorAlert: ErrorAlertViewModel?
     @Published var isLoading = false
 }

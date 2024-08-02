@@ -8,6 +8,6 @@
 import Foundation
 
 protocol CustomError: LocalizedError {
-    var userFacingError: String { get }
-    var developerFacingError: String { get }
+    var userFacingError: String { get } // error shown to user
+    var developerFacingError: String { get } // error shown to developer for debugging purposes
 }

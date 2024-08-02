@@ -8,7 +8,7 @@
 import Foundation
 
 // Used to display error alerts in SwiftUI views
-struct ErrorAlert: Identifiable {
+struct ErrorAlertViewModel: Identifiable {
     let id = UUID()
     let title = String(localized: "Oops")
     let description: String

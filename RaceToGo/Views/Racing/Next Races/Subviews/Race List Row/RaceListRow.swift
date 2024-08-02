@@ -12,27 +12,33 @@ struct RaceListRow: View {
 
     var body: some View {
         HStack(spacing: 12) {
-            VStack {
-                Text(viewModel.categoryEmoji)
-                    .accessibilityLabel(viewModel.categoryName)
-                Text(viewModel.raceNumber)
-            }
-            .fontWeight(.medium)
-            .frame(maxWidth: 40)
-
+            raceNumberView
             Divider()
-
             Text(viewModel.meetingName)
-
             Spacer()
-
-            Text(viewModel.timeLeftString)
-                .foregroundStyle(Color.red)
-                .font(.caption.weight(.medium))
-                .accessibilityLabel(viewModel.timeLeftA11yLabel)
+            timeLeftView
         }
-        .animation(nil, value: viewModel.timeLeftString)
+        .animation(nil, value: viewModel.startsInString)
         .accessibilityElement(children: .combine)
+    }
+
+    // MARK: - Subviews
+
+    private var raceNumberView: some View {
+        VStack {
+            Text(viewModel.categoryEmoji)
+                .accessibilityLabel(viewModel.categoryName)
+            Text(viewModel.raceNumber)
+        }
+        .fontWeight(.medium)
+        .frame(maxWidth: 40)
+    }
+
+    private var timeLeftView: some View {
+        Text(viewModel.startsInString)
+            .foregroundStyle(Color.red)
+            .font(.caption.weight(.medium))
+            .accessibilityLabel(viewModel.startsInA11yLabel)
     }
 }
 
