@@ -17,7 +17,7 @@ The app uses MVVM - Model-View-ViewModel. Its structure is modular, and if neede
 
 - **Models.** Data models used in the app - Model part of MVVM. Can be common and feature specific, currently there are only Racing feature specific data models.
 
-- **Views.** This is the View-ViewModel part of MVVM. Views are split into common and feature specific, currently there are only Racing feature specific data models. Common views also contain Base views and view models which hold common logic between all main views, e.g. presenting alerts.
+- **Views.** This is the View-ViewModel part of MVVM. Views are split into common and feature specific, currently there are only Racing feature specific views. Common views also contain Base views and view models which hold common logic between all main views, e.g. presenting alerts.
 
 There are also a couple of extra folders in the project structure that haven't been made modular/feature specific, but could be if needed:
 
@@ -68,8 +68,9 @@ There is a base MockedDependenciesTestCase class to facilitate initialising all 
 There is an easy way to create Data Model mocks when the data is fetched from the backend. They can be used for both unit tests and SwiftUI previews.
 1. Create a json file with the real payload. Wrap it in the value for key "normal" - this is the default mock name.
 2. Conform data model to Mockable protocol.
-3. Call either Type.mock() to get its Data object or mockDecoded to get its Type object.
-To better understand how to use Mockable, see NextRacesResponse.
+3. Call either Type.mock() to get its Data object or Type.mockDecoded() to get its Type object.
+
+*To better understand how to use Mockable, see NextRacesResponse.*
 
 ### UI tests
 There are 2 default UI tests that were created automatically when creating Xcode project.
