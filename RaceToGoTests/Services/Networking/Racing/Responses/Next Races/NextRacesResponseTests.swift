@@ -29,7 +29,6 @@ final class NextRacesResponseTests: XCTestCase {
         let firstRace = result.first(where: { $0.id == "8630db92-60f3-4489-9bca-1066758e2270" })
         XCTAssertEqual(firstRace?.advertisedStart, .init(timeIntervalSince1970: 1722576300))
         XCTAssertEqual(firstRace?.category, .harness)
-        //XCTAssertEqual(firstRace.id, "8630db92-60f3-4489-9bca-1066758e2270")
         XCTAssertEqual(firstRace?.meetingName, "Addington")
         XCTAssertEqual(firstRace?.number, 2)
         XCTAssertEqual(firstRace?.name, "Concrete Brothers Trot")

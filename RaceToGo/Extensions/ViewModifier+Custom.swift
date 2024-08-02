@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// instead of .opaque(bool ? 1 : 0), simply use .opaqueIfTrue(bool)
+// Instead of .opaque(bool ? 1 : 0), simply use .opaqueIfTrue(bool)
 struct OpaqueIfTrueModifier: ViewModifier {
     let condition: Bool
 

@@ -30,7 +30,7 @@ struct RaceViewModel: Identifiable {
 
     private static func getFormattedTime(for timeInterval: TimeInterval, forAccessibility: Bool) -> String {
         // Voice over doesn't pronounce abbreviated string correctly e.g. saying meters instead of minutes,
-        // so need to use full units style
+        // so we need to use full units style
         let formatter = DateComponentsFormatter()
         formatter.unitsStyle = forAccessibility ? .full : .abbreviated
         return formatter.string(from: timeInterval) ?? ""

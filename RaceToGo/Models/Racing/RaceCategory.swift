@@ -23,6 +23,7 @@ enum RaceCategory: Decodable, CaseIterable {
         case "4a2788f8-e825-4d36-9894-efd4baf1cfae":
             self = .horse
         default:
+            // Log unknown category somewhere so that we know there is a new category
             return nil
         }
     }

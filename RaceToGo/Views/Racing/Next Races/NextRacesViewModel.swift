@@ -20,7 +20,7 @@ final class NextRacesViewModel: BaseViewModel {
     private let raceLimitToFetch = 10
 
     // When reaching this number of not expired races, fetch new data
-    private let raceIndexToFetchNext = 7
+    private let raceCountToFetchNext = 7
 
     // Do not display races that are over 1 min past the advertised start
     private let advertisedStartLimit: TimeInterval
@@ -69,15 +69,17 @@ final class NextRacesViewModel: BaseViewModel {
     var shouldFetchNewData: Bool {
         // Could API return less than 10 races at some point?
         // In that case perhaps no need to fetch new races
-        racesStartingSoon.count <= raceIndexToFetchNext && fetchedRaces.count >= raceLimitToFetch
+        racesStartingSoon.count <= raceCountToFetchNext && fetchedRaces.count >= raceLimitToFetch
     }
 
     // MARK: - Dependencies
 
+    // Public for unit tests
     @Published var date: Date
+
     private let apiService: APIServiceProtocol
 
-    // MARK: - Lifecycle
+    // MARK: - Init
 
     init(apiService: APIServiceProtocol, date: Date = Date(), advertisedStartLimit: TimeInterval = -60) {
         self.apiService = apiService
@@ -95,7 +97,10 @@ final class NextRacesViewModel: BaseViewModel {
             fetchedRaces = response.toRaces()
             startTimer()
         } catch {
-            errorAlert = .init(from: error)
+            // Looks like presenting error alert breaks pull to refresh animation, thus presenting with a delay
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) { [weak self] in
+                self?.errorAlert = .init(from: error)
+            }
         }
         isLoading = false
     }

@@ -8,7 +8,7 @@
 import Foundation
 
 extension Data {
-    // converts data to pretty printed json string for debugging
+    // Converts data to pretty printed json string for debugging
     func toJsonString() -> String? {
         guard let jsonObject = try? JSONSerialization.jsonObject(with: self),
               let jsonData = try? JSONSerialization.data(withJSONObject: jsonObject, options: .prettyPrinted) else {

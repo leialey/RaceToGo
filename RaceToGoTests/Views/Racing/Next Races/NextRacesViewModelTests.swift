@@ -41,6 +41,7 @@ final class NextRacesViewModelTests: MockedDependenciesTestCase {
 
         // then
         XCTAssertTrue(sut.racesStartingSoon.isEmpty)
+        try! await Task.sleep(nanoseconds: 200000000)
         XCTAssertEqual(sut.errorAlert?.title, "Oops")
     }
 

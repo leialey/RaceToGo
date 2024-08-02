@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Reusable Toggle
 struct ToggleView: View {
     @Binding var isOn: Bool
     let title: String

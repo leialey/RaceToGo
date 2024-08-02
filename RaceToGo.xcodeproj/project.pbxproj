@@ -44,10 +44,10 @@
 		E5806CBA2C5C6DFA0057D5BC /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CB92C5C6DFA0057D5BC /* ToggleView.swift */; };
 		E5806CBD2C5C6ED40057D5BC /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CBC2C5C6ED40057D5BC /* EmptyListView.swift */; };
 		E5806CBF2C5C6F840057D5BC /* EmptyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CBE2C5C6F840057D5BC /* EmptyListViewModel.swift */; };
-		E5806CC12C5C70C00057D5BC /* ToggleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CC02C5C70C00057D5BC /* ToggleViewModel.swift */; };
 		E5806CC32C5C73010057D5BC /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CC22C5C73010057D5BC /* APIServiceProtocol.swift */; };
 		E5806CCA2C5C86E30057D5BC /* RacingAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CC92C5C86E30057D5BC /* RacingAPITests.swift */; };
 		E5806CCE2C5C8EA30057D5BC /* NextRacesResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CCD2C5C8EA30057D5BC /* NextRacesResponseTests.swift */; };
+		E5806CD52C5CB8CC0057D5BC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E5806CD42C5CB8CC0057D5BC /* README.md */; };
 		E5F86E922C5AFC7F00E5655F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E5F86E912C5AFC7F00E5655F /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
@@ -109,10 +109,10 @@
 		E5806CB92C5C6DFA0057D5BC /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		E5806CBC2C5C6ED40057D5BC /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
 		E5806CBE2C5C6F840057D5BC /* EmptyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListViewModel.swift; sourceTree = "<group>"; };
-		E5806CC02C5C70C00057D5BC /* ToggleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleViewModel.swift; sourceTree = "<group>"; };
 		E5806CC22C5C73010057D5BC /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
 		E5806CC92C5C86E30057D5BC /* RacingAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingAPITests.swift; sourceTree = "<group>"; };
 		E5806CCD2C5C8EA30057D5BC /* NextRacesResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextRacesResponseTests.swift; sourceTree = "<group>"; };
+		E5806CD42C5CB8CC0057D5BC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E5F86E912C5AFC7F00E5655F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +144,7 @@
 		E51672EB2C59F8F0005534F1 = {
 			isa = PBXGroup;
 			children = (
+				E5806CD42C5CB8CC0057D5BC /* README.md */,
 				E51672F62C59F8F0005534F1 /* RaceToGo */,
 				E51673072C59F8F2005534F1 /* RaceToGoTests */,
 				E51673112C59F8F2005534F1 /* RaceToGoUITests */,
@@ -406,7 +407,6 @@
 			isa = PBXGroup;
 			children = (
 				E5806CB92C5C6DFA0057D5BC /* ToggleView.swift */,
-				E5806CC02C5C70C00057D5BC /* ToggleViewModel.swift */,
 			);
 			path = "Filter Toggle";
 			sourceTree = "<group>";
@@ -616,6 +616,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5806CD52C5CB8CC0057D5BC /* README.md in Resources */,
 				E51672FF2C59F8F1005534F1 /* Preview Assets.xcassets in Resources */,
 				E51673572C5A25B9005534F1 /* NextRacesResponse.json in Resources */,
 				E5F86E922C5AFC7F00E5655F /* Localizable.xcstrings in Resources */,
@@ -655,7 +656,6 @@
 				E516734E2C5A150E005534F1 /* MockAPIService.swift in Sources */,
 				E51673502C5A1C4B005534F1 /* Data+Extensions.swift in Sources */,
 				E51673242C59F952005534F1 /* Race.swift in Sources */,
-				E5806CC12C5C70C00057D5BC /* ToggleViewModel.swift in Sources */,
 				E516733F2C5A0BC2005534F1 /* BaseViewModel.swift in Sources */,
 				E5806CB22C5C69540057D5BC /* ViewModifier+Custom.swift in Sources */,
 				E51673262C59F9C5005534F1 /* RaceCategory.swift in Sources */,

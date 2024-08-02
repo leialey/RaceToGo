@@ -13,7 +13,7 @@ struct RaceToGoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            NextRacesView(viewModel: NextRacesViewModel(apiService: viewModel.apiService))
+            NextRacesView(viewModel: .init(apiService: viewModel.apiService))
         }
     }
 }

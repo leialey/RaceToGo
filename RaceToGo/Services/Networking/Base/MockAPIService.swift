@@ -8,7 +8,7 @@
 import Foundation
 
 // Used for unit tests and previews
-// Just pass description of an APIProtocol, e.g. "next races" with its mock for the request to return a success
+// Just pass description of an APIProtocol, e.g. "next races" with its mock in the init() for the request to return a success
 final class MockAPIService: APIServiceProtocol {
     var data: [String: Data]
     var error: CustomError = APIError.badResponse

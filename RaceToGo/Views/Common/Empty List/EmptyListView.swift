@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// Used to display an overlay for a list with no data
+// Used to display an overlay for an empty list
 struct EmptyListView: View {
     let viewModel: EmptyListViewModel
 
