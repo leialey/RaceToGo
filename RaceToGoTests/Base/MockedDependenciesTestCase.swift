@@ -10,4 +10,9 @@ import XCTest
 
 class MockedDependenciesTestCase: XCTestCase {
     var apiService: MockAPIService!
+
+    override func setUp() {
+        super.setUp()
+        apiService = MockAPIService()
+    }
 }

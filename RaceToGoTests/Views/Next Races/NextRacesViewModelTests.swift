@@ -13,19 +13,23 @@ final class NextRacesViewModelTests: MockedDependenciesTestCase {
 
     override func setUp() {
         super.setUp()
-        apiService = MockAPIService()
         sut = NextRacesViewModel(apiService: apiService, date: .distantPast)
+    }
+
+    override func tearDown() {
+        sut = nil
+        super.tearDown()
     }
 
     func test_fetchNextRaces_givenSuccess_assignsRaces() async {
         // given API returns success
-        apiService.data["RacingAPI"] = NextRacesResponse.mock()
-
+        apiService.data["next races"] = NextRacesResponse.mock()
+        
         // when
         await sut.fetchNextRaces()
 
         // then returns 5 races
-        XCTAssertEqual(sut.filteredRaces.count, 5)
+        XCTAssertEqual(sut.racesStartingSoon.count, 5)
         //XCTAssertEqual(sut.filteredRaces[0].advertisedStart, Date())
     }
 
@@ -37,8 +41,7 @@ final class NextRacesViewModelTests: MockedDependenciesTestCase {
         await sut.fetchNextRaces()
 
         // then
-        XCTAssertTrue(sut.filteredRaces.isEmpty)
+        XCTAssertTrue(sut.racesStartingSoon.isEmpty)
         XCTAssertEqual(sut.errorAlert?.title, "Oops")
-        //XCTAssertEqual(sut.errorAlert?.description, "There was an error")
     }
 }

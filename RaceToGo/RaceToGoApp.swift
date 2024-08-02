@@ -9,14 +9,11 @@ import SwiftUI
 
 @main
 struct RaceToGoApp: App {
-
-    // MARK: - Dependencies
-
-    let apiService = APIService()
+    @StateObject private var viewModel = AppViewModel()
 
     var body: some Scene {
         WindowGroup {
-            NextRacesView(viewModel: NextRacesViewModel(apiService: apiService))
+            NextRacesView(viewModel: NextRacesViewModel(apiService: viewModel.apiService))
         }
     }
 }

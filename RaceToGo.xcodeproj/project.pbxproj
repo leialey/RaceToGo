@@ -10,7 +10,6 @@
 		E51672F82C59F8F0005534F1 /* RaceToGoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51672F72C59F8F0005534F1 /* RaceToGoApp.swift */; };
 		E51672FC2C59F8F1005534F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E51672FB2C59F8F1005534F1 /* Assets.xcassets */; };
 		E51672FF2C59F8F1005534F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E51672FE2C59F8F1005534F1 /* Preview Assets.xcassets */; };
-		E51673092C59F8F2005534F1 /* RaceToGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673082C59F8F2005534F1 /* RaceToGoTests.swift */; };
 		E51673132C59F8F2005534F1 /* RaceToGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673122C59F8F2005534F1 /* RaceToGoUITests.swift */; };
 		E51673152C59F8F2005534F1 /* RaceToGoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673142C59F8F2005534F1 /* RaceToGoUITestsLaunchTests.swift */; };
 		E51673242C59F952005534F1 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673232C59F952005534F1 /* Race.swift */; };
@@ -38,6 +37,15 @@
 		E51673662C5A4FF0005534F1 /* RaceListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673652C5A4FF0005534F1 /* RaceListRow.swift */; };
 		E51673682C5A4FFF005534F1 /* RaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673672C5A4FFF005534F1 /* RaceViewModel.swift */; };
 		E516736A2C5A5588005534F1 /* RaceViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51673692C5A5588005534F1 /* RaceViewModelTests.swift */; };
+		E5806CAB2C5B1AC00057D5BC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5806CAA2C5B1AC00057D5BC /* Launch Screen.storyboard */; };
+		E5806CAE2C5B25220057D5BC /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CAD2C5B25220057D5BC /* AppViewModel.swift */; };
+		E5806CB02C5C685A0057D5BC /* CategoryFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CAF2C5C685A0057D5BC /* CategoryFilterViewModel.swift */; };
+		E5806CB22C5C69540057D5BC /* ViewModifier+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CB12C5C69540057D5BC /* ViewModifier+Custom.swift */; };
+		E5806CBA2C5C6DFA0057D5BC /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CB92C5C6DFA0057D5BC /* ToggleView.swift */; };
+		E5806CBD2C5C6ED40057D5BC /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CBC2C5C6ED40057D5BC /* EmptyListView.swift */; };
+		E5806CBF2C5C6F840057D5BC /* EmptyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CBE2C5C6F840057D5BC /* EmptyListViewModel.swift */; };
+		E5806CC12C5C70C00057D5BC /* ToggleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5806CC02C5C70C00057D5BC /* ToggleViewModel.swift */; };
+		E5F86E922C5AFC7F00E5655F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E5F86E912C5AFC7F00E5655F /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +71,6 @@
 		E51672FB2C59F8F1005534F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E51672FE2C59F8F1005534F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E51673042C59F8F2005534F1 /* RaceToGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaceToGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E51673082C59F8F2005534F1 /* RaceToGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceToGoTests.swift; sourceTree = "<group>"; };
 		E516730E2C59F8F2005534F1 /* RaceToGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaceToGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E51673122C59F8F2005534F1 /* RaceToGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceToGoUITests.swift; sourceTree = "<group>"; };
 		E51673142C59F8F2005534F1 /* RaceToGoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceToGoUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -92,6 +99,15 @@
 		E51673652C5A4FF0005534F1 /* RaceListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListRow.swift; sourceTree = "<group>"; };
 		E51673672C5A4FFF005534F1 /* RaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceViewModel.swift; sourceTree = "<group>"; };
 		E51673692C5A5588005534F1 /* RaceViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceViewModelTests.swift; sourceTree = "<group>"; };
+		E5806CAA2C5B1AC00057D5BC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E5806CAD2C5B25220057D5BC /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		E5806CAF2C5C685A0057D5BC /* CategoryFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFilterViewModel.swift; sourceTree = "<group>"; };
+		E5806CB12C5C69540057D5BC /* ViewModifier+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModifier+Custom.swift"; sourceTree = "<group>"; };
+		E5806CB92C5C6DFA0057D5BC /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		E5806CBC2C5C6ED40057D5BC /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		E5806CBE2C5C6F840057D5BC /* EmptyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListViewModel.swift; sourceTree = "<group>"; };
+		E5806CC02C5C70C00057D5BC /* ToggleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleViewModel.swift; sourceTree = "<group>"; };
+		E5F86E912C5AFC7F00E5655F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +159,12 @@
 			isa = PBXGroup;
 			children = (
 				E51672F72C59F8F0005534F1 /* RaceToGoApp.swift */,
-				E51673212C59F928005534F1 /* Next to Go */,
-				E51672FB2C59F8F1005534F1 /* Assets.xcassets */,
+				E5806CAD2C5B25220057D5BC /* AppViewModel.swift */,
+				E51673472C5A10F6005534F1 /* Extensions */,
+				E51673272C59FB16005534F1 /* Services */,
+				E51673222C59F93A005534F1 /* Models */,
+				E516733A2C5A0B37005534F1 /* Views */,
+				E5F86E902C5AFC6300E5655F /* Resources */,
 				E51672FD2C59F8F1005534F1 /* Preview Content */,
 			);
 			path = RaceToGo;
@@ -163,8 +183,6 @@
 			children = (
 				E516735C2C5A36A0005534F1 /* Base */,
 				E51673582C5A362E005534F1 /* Views */,
-				E51673392C5A09A6005534F1 /* Services */,
-				E51673082C59F8F2005534F1 /* RaceToGoTests.swift */,
 			);
 			path = RaceToGoTests;
 			sourceTree = "<group>";
@@ -176,17 +194,6 @@
 				E51673142C59F8F2005534F1 /* RaceToGoUITestsLaunchTests.swift */,
 			);
 			path = RaceToGoUITests;
-			sourceTree = "<group>";
-		};
-		E51673212C59F928005534F1 /* Next to Go */ = {
-			isa = PBXGroup;
-			children = (
-				E51673472C5A10F6005534F1 /* Extensions */,
-				E51673272C59FB16005534F1 /* Services */,
-				E51673222C59F93A005534F1 /* Models */,
-				E516733A2C5A0B37005534F1 /* Views */,
-			);
-			path = "Next to Go";
 			sourceTree = "<group>";
 		};
 		E51673222C59F93A005534F1 /* Models */ = {
@@ -237,17 +244,10 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		E51673392C5A09A6005534F1 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
 		E516733A2C5A0B37005534F1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E516733D2C5A0BBA005534F1 /* Base */,
+				E5806CB62C5C6DC90057D5BC /* Common */,
 				E51673602C5A3B00005534F1 /* Racing */,
 			);
 			path = Views;
@@ -258,7 +258,6 @@
 			children = (
 				E51673422C5A0EB7005534F1 /* BaseView.swift */,
 				E516733E2C5A0BC2005534F1 /* BaseViewModel.swift */,
-				E51673442C5A0FA4005534F1 /* ErrorAlert.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -266,10 +265,9 @@
 		E51673462C5A1081005534F1 /* Next Races */ = {
 			isa = PBXGroup;
 			children = (
+				E5806CB32C5C6D440057D5BC /* Subviews */,
 				E516733B2C5A0B69005534F1 /* NextRacesViewModel.swift */,
 				E516734B2C5A1401005534F1 /* NextRacesView.swift */,
-				E51673652C5A4FF0005534F1 /* RaceListRow.swift */,
-				E51673672C5A4FFF005534F1 /* RaceViewModel.swift */,
 			);
 			path = "Next Races";
 			sourceTree = "<group>";
@@ -279,6 +277,7 @@
 			children = (
 				E516734F2C5A1C4B005534F1 /* Data+Extensions.swift */,
 				E51673612C5A410C005534F1 /* Decodable+Mockable.swift */,
+				E5806CB12C5C69540057D5BC /* ViewModifier+Custom.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -349,6 +348,79 @@
 				E51673632C5A41B3005534F1 /* NextRacesResponse+Mockable.swift */,
 			);
 			path = "Next Races";
+			sourceTree = "<group>";
+		};
+		E5806CB32C5C6D440057D5BC /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E5806CB52C5C6D6B0057D5BC /* Category Filter */,
+				E5806CB42C5C6D620057D5BC /* Race List Row */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		E5806CB42C5C6D620057D5BC /* Race List Row */ = {
+			isa = PBXGroup;
+			children = (
+				E51673672C5A4FFF005534F1 /* RaceViewModel.swift */,
+				E51673652C5A4FF0005534F1 /* RaceListRow.swift */,
+			);
+			path = "Race List Row";
+			sourceTree = "<group>";
+		};
+		E5806CB52C5C6D6B0057D5BC /* Category Filter */ = {
+			isa = PBXGroup;
+			children = (
+				E5806CAF2C5C685A0057D5BC /* CategoryFilterViewModel.swift */,
+			);
+			path = "Category Filter";
+			sourceTree = "<group>";
+		};
+		E5806CB62C5C6DC90057D5BC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E516733D2C5A0BBA005534F1 /* Base */,
+				E5806CB82C5C6DE50057D5BC /* Filter Toggle */,
+				E5806CBB2C5C6EC30057D5BC /* Empty List */,
+				E5806CB72C5C6DD80057D5BC /* Error Alert */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E5806CB72C5C6DD80057D5BC /* Error Alert */ = {
+			isa = PBXGroup;
+			children = (
+				E51673442C5A0FA4005534F1 /* ErrorAlert.swift */,
+			);
+			path = "Error Alert";
+			sourceTree = "<group>";
+		};
+		E5806CB82C5C6DE50057D5BC /* Filter Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				E5806CB92C5C6DFA0057D5BC /* ToggleView.swift */,
+				E5806CC02C5C70C00057D5BC /* ToggleViewModel.swift */,
+			);
+			path = "Filter Toggle";
+			sourceTree = "<group>";
+		};
+		E5806CBB2C5C6EC30057D5BC /* Empty List */ = {
+			isa = PBXGroup;
+			children = (
+				E5806CBC2C5C6ED40057D5BC /* EmptyListView.swift */,
+				E5806CBE2C5C6F840057D5BC /* EmptyListViewModel.swift */,
+			);
+			path = "Empty List";
+			sourceTree = "<group>";
+		};
+		E5F86E902C5AFC6300E5655F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E51672FB2C59F8F1005534F1 /* Assets.xcassets */,
+				E5F86E912C5AFC7F00E5655F /* Localizable.xcstrings */,
+				E5806CAA2C5B1AC00057D5BC /* Launch Screen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,6 +529,8 @@
 			files = (
 				E51672FF2C59F8F1005534F1 /* Preview Assets.xcassets in Resources */,
 				E51673572C5A25B9005534F1 /* NextRacesResponse.json in Resources */,
+				E5F86E922C5AFC7F00E5655F /* Localizable.xcstrings in Resources */,
+				E5806CAB2C5B1AC00057D5BC /* Launch Screen.storyboard in Resources */,
 				E51672FC2C59F8F1005534F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,21 +556,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5806CAE2C5B25220057D5BC /* AppViewModel.swift in Sources */,
 				E51673362C5A038E005534F1 /* RacingAPI.swift in Sources */,
 				E51673382C5A0424005534F1 /* APIConstants.swift in Sources */,
 				E516734A2C5A1109005534F1 /* CustomError.swift in Sources */,
 				E51673302C5A0231005534F1 /* APIProtocol.swift in Sources */,
 				E516733C2C5A0B69005534F1 /* NextRacesViewModel.swift in Sources */,
+				E5806CBF2C5C6F840057D5BC /* EmptyListViewModel.swift in Sources */,
 				E516734E2C5A150E005534F1 /* MockAPIService.swift in Sources */,
 				E51673502C5A1C4B005534F1 /* Data+Extensions.swift in Sources */,
 				E51673242C59F952005534F1 /* Race.swift in Sources */,
+				E5806CC12C5C70C00057D5BC /* ToggleViewModel.swift in Sources */,
 				E516733F2C5A0BC2005534F1 /* BaseViewModel.swift in Sources */,
+				E5806CB22C5C69540057D5BC /* ViewModifier+Custom.swift in Sources */,
 				E51673262C59F9C5005534F1 /* RaceCategory.swift in Sources */,
+				E5806CBA2C5C6DFA0057D5BC /* ToggleView.swift in Sources */,
 				E51673682C5A4FFF005534F1 /* RaceViewModel.swift in Sources */,
 				E51673662C5A4FF0005534F1 /* RaceListRow.swift in Sources */,
 				E51673622C5A410C005534F1 /* Decodable+Mockable.swift in Sources */,
 				E516732B2C59FB71005534F1 /* APIService.swift in Sources */,
 				E51672F82C59F8F0005534F1 /* RaceToGoApp.swift in Sources */,
+				E5806CB02C5C685A0057D5BC /* CategoryFilterViewModel.swift in Sources */,
 				E51673642C5A41B3005534F1 /* NextRacesResponse+Mockable.swift in Sources */,
 				E51673532C5A2369005534F1 /* NextRacesResponse.swift in Sources */,
 				E51673432C5A0EB7005534F1 /* BaseView.swift in Sources */,
@@ -504,6 +584,7 @@
 				E51673452C5A0FA4005534F1 /* ErrorAlert.swift in Sources */,
 				E516732E2C5A0136005534F1 /* APIError.swift in Sources */,
 				E51673322C5A0307005534F1 /* APIMethod.swift in Sources */,
+				E5806CBD2C5C6ED40057D5BC /* EmptyListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,7 +594,6 @@
 			files = (
 				E516735B2C5A363F005534F1 /* NextRacesViewModelTests.swift in Sources */,
 				E516736A2C5A5588005534F1 /* RaceViewModelTests.swift in Sources */,
-				E51673092C59F8F2005534F1 /* RaceToGoTests.swift in Sources */,
 				E516735E2C5A36AF005534F1 /* MockedDependenciesTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -673,9 +753,11 @@
 				DEVELOPMENT_TEAM = MJ93Q6SVAB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -702,9 +784,11 @@
 				DEVELOPMENT_TEAM = MJ93Q6SVAB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

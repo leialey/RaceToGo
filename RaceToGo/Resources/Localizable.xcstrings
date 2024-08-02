@@ -1,0 +1,42 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Filters" : {
+
+    },
+    "Greyhound" : {
+
+    },
+    "Harness" : {
+
+    },
+    "Horse" : {
+
+    },
+    "Next to go racing" : {
+
+    },
+    "No races found" : {
+
+    },
+    "Oops" : {
+
+    },
+    "R%lld" : {
+
+    },
+    "starts in %@" : {
+
+    },
+    "There was an error" : {
+
+    },
+    "There was an error fetching data" : {
+
+    },
+    "Try to remove filters" : {
+
+    }
+  },
+  "version" : "1.0"
+}
